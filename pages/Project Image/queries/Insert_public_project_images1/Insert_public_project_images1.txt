@@ -1,0 +1,1 @@
+INSERT INTO public.project_images ("image_title","image_url","project_id") VALUES ('{{(JSONForm3.formData || {}).image_title}}','{{(JSONForm3.formData || {}).image_url}}','{{(JSONForm3.formData || {}).project_id}}')

@@ -1,0 +1,7 @@
+UPDATE public."matched_supplier"
+SET project_id = '{{Table1.selectedRow.project_id}}',
+    product_id = '{{Table1.selectedRow.product_id}}',
+    service_id = '{{Table1.selectedRow.service_id}}',
+    certification_type = '{{Table1.selectedRow.certification_type}}',
+    percentage = '{{Table1.selectedRow.percentage}}'
+WHERE id = '{{Table1.selectedRow.id}}';

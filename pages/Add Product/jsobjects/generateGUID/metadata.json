@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66876f1c2c7ef43f2c319204_fd317998-adc4-452d-adc2-e76a146ab928",
+  "id": "Add Product_generateGUID",
+  "unpublishedCollection": {
+    "name": "generateGUID",
+    "pageId": "Add Product",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

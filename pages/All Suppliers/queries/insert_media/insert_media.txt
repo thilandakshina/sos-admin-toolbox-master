@@ -1,0 +1,2 @@
+INSERT INTO public.supplier_images (image_url, image_title, supplier_id)
+VALUES ({{(appsmith.store.media_url)}}, {{uploadMedia.files[0]?.name.slice(0, 50)}},{{data_table.selectedRow.id}});

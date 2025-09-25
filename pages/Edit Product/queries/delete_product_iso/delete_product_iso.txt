@@ -1,0 +1,1 @@
+DELETE FROM public."product_iso_accreditation" WHERE id = {{product_iso_table.triggeredRow.id}}

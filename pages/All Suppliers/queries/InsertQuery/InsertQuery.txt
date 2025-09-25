@@ -1,0 +1,28 @@
+INSERT INTO public."supplier" (
+	"id",
+	"website_url",
+	"business_id",
+	"au_national",
+	"au_state",
+	"au_region",
+	"nz_national",
+	"international",
+	"iso_accreditation",
+	"iso_accreditation_select",
+	"iso_accreditation_expiry",
+	"iso_accreditation_cert_doc_title"
+)
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.website_url}}',
+	'{{insert_form.formData.business_id}}',
+	'{{insert_form.formData.au_national}}',
+	'{{insert_form.formData.au_state}}',
+	'{{insert_form.formData.au_region}}',
+	'{{insert_form.formData.nz_national}}',
+	'{{insert_form.formData.international}}',
+	'{{insert_form.formData.iso_accreditation}}',
+	'{{insert_form.formData.iso_accreditation_select}}',
+	'{{insert_form.formData.iso_accreditation_expiry}}',
+	'{{insert_form.formData.iso_accreditation_cert_doc_title}}'
+);

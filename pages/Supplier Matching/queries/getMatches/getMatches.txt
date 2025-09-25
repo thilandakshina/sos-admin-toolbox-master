@@ -1,0 +1,4 @@
+SELECT ms.*
+FROM public.matched_supplier ms
+LEFT JOIN public.project p ON ms.project_id = p.id
+WHERE '{{Table1.searchText || ""}}' = '' OR p.name ILIKE '%{{Table1.searchText || ""}}%';

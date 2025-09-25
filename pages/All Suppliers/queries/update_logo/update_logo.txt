@@ -1,0 +1,6 @@
+UPDATE public.supplier 
+SET 
+    logo_url = {{appsmith.store.logo_url}}, 
+    logo_title = {{FilePicker1.files[0]?.name.slice(0, 50)}}
+WHERE 
+    id = {{data_table.selectedRow.id}};

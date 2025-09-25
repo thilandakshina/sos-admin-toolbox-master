@@ -1,0 +1,8 @@
+UPDATE public.product_variation SET 
+	"name" = '{{variation_form.formData.name}}',
+	"price" = '{{variation_form.formData.price}}',
+	"color" = '{{variation_form.formData.color}}',
+	"size" = '{{variation_form.formData.size}}',
+	"quantity" = '{{variation_form.formData.quantity}}',
+	"other" = '{{variation_form.formData.other}}'
+WHERE id = {{variation_form.formData.id}}

@@ -1,0 +1,10 @@
+SELECT 
+    p.id, 
+    p.name, 
+    b.name AS business_name
+FROM 
+    public."product" p
+INNER JOIN 
+    public."business" b 
+ON 
+    p.business_id = b.id;

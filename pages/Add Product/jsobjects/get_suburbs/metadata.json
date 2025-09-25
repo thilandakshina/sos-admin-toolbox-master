@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67593b6284535e18d394d2d2_b66c33bd-5b56-4b4d-a9e0-4b2cdbe2b80b",
+  "id": "Add Product_get_suburbs",
+  "unpublishedCollection": {
+    "name": "get_suburbs",
+    "pageId": "Add Product",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

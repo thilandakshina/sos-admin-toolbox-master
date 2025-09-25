@@ -1,0 +1,25 @@
+INSERT INTO public.supplier 
+    ("id", "business_id", "au_national", "au_state", "au_region", "nz_national", 
+    "international", "description", "logo_title", "logo_url", "website_url", 
+    "x_url", "youtube_url", "facebook_url", "instagram_url", "linkedin_url", "video_url", "impactType", "communityPurpose", "communityImpact") 
+VALUES 
+    ('{{uuid_min_js.UUID.generate()}}', 
+    '{{(JSONForm1.formData || {}).business_id}}', 
+    '{{(JSONForm1.formData || {}).au_national}}', 
+    '{{(JSONForm1.formData || {}).au_state}}', 
+    '{{(JSONForm1.formData || {}).au_region}}', 
+    '{{(JSONForm1.formData || {}).nz_national}}', 
+    '{{(JSONForm1.formData || {}).international}}', 
+    '{{(JSONForm1.formData || {}).description}}', 
+    '{{(JSONForm1.formData || {}).logo_title}}', 
+    '{{(JSONForm1.formData || {}).logo_url}}', 
+    '{{(JSONForm1.formData || {}).website_url}}', 
+    '{{(JSONForm1.formData || {}).x_url}}', 
+    '{{(JSONForm1.formData || {}).youtube_url}}', 
+    '{{(JSONForm1.formData || {}).facebook_url}}', 
+    '{{(JSONForm1.formData || {}).instagram_url}}', 
+    '{{(JSONForm1.formData || {}).linkedin_url}}', 
+    '{{(JSONForm1.formData || {}).video_url}}',
+		'{{(JSONForm1.formData || {}).impactType}}',
+		'{{(JSONForm1.formData || {}).communityPurpose}}',
+		'{{(JSONForm1.formData || {}).communityImpact}}')

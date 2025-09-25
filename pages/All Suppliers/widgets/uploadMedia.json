@@ -1,0 +1,57 @@
+{
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 82,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "rosklp3b3m",
+  "label": "Upload Supplier Images",
+  "leftColumn": 51,
+  "maxFileSize": 5,
+  "maxNumFiles": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 85,
+  "mobileLeftColumn": 39,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 81,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{upload_media.run().then(() => {\n  showAlert('Uploaded!', 'success');\n  storeValue('media_url', upload_media.data.url.replace('us-west-2', 'ap-southeast-2'));\n  insert_media.run();\n  resetWidget(\"uploadMedia\", true);\n  supplier_images.run();\n});}}",
+  "originalBottomRow": 84,
+  "originalTopRow": 80,
+  "parentColumnSpace": 26.546875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "selectedFiles": [],
+  "topRow": 78,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "6h5sw5klrd",
+  "widgetName": "uploadMedia"
+}

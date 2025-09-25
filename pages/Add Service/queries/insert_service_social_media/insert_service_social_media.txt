@@ -1,0 +1,9 @@
+INSERT INTO public.service_social_media (
+	"service_id",
+	"name",
+	"link"
+) VALUES (
+	'{{(social_media_form.formData || {}).service_id}}',
+	'{{(social_media_form.formData || {}).name}}',
+	'{{(social_media_form.formData || {}).link}}'
+)

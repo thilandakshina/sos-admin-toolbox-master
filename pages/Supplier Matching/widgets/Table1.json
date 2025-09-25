@@ -1,0 +1,429 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": true,
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 61,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "id",
+    "project_id",
+    "product_id",
+    "service_id",
+    "certification_type",
+    "percentage",
+    "EditActions1"
+  ],
+  "columnUpdatedAt": 1723094937948,
+  "columnWidthMap": {
+    "certification_type": 249,
+    "product_id": 332,
+    "project_id": 208,
+    "service_id": 376
+  },
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
+    },
+    {
+      "key": "primaryColumns.project_id.computedValue"
+    },
+    {
+      "key": "primaryColumns.product_id.computedValue"
+    },
+    {
+      "key": "primaryColumns.service_id.computedValue"
+    },
+    {
+      "key": "primaryColumns.certification_type.computedValue"
+    },
+    {
+      "key": "primaryColumns.percentage.computedValue"
+    },
+    {
+      "key": "primaryColumns.product_id.selectOptions"
+    },
+    {
+      "key": "primaryColumns.service_id.selectOptions"
+    },
+    {
+      "key": "primaryColumns.project_id.selectOptions"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveButtonColor"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.discardBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.product_id.isCellEditable"
+    },
+    {
+      "key": "primaryColumns.service_id.isCellEditable"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.product_id.isCellEditable"
+    },
+    {
+      "key": "primaryColumns.service_id.isCellEditable"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onAddNewRowSave"
+    },
+    {
+      "key": "onSearchTextChanged"
+    },
+    {
+      "key": "primaryColumns.EditActions1.onSave"
+    }
+  ],
+  "enableClientSideSearch": false,
+  "flexVerticalAlignment": "start",
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": false,
+  "key": "l0wdo4dfe2",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 48,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "onAddNewRowSave": "{{insertNewMatch.run().then(() => {\n  showAlert('Success', 'success');\n  getMatches.run();\n}).catch(() => {\n  showAlert('Error', 'error');\n});}}",
+  "onSearchTextChanged": "{{getMatches.run().catch(() => {\n  showAlert('An error occured when trying to search!', 'error');\n});}}",
+  "parentColumnSpace": 16.59375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "primaryColumnId": "id",
+  "primaryColumns": {
+    "EditActions1": {
+      "alias": "EditActions1",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "editActions",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "discardActionLabel": "Discard",
+      "discardBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "discardButtonColor": "#F22B2B",
+      "discardButtonVariant": "TERTIARY",
+      "discardIconAlign": "left",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "EditActions1",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Save / Discard",
+      "notation": "standard",
+      "onSave": "{{updateMatch.run().then(() => {\n  showAlert('Successfully saved', 'success');\n  getMatches.run();\n}).catch(() => {\n  showAlert('Error occured!', 'error');\n});}}",
+      "originalId": "EditActions1",
+      "saveActionLabel": "Save",
+      "saveBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "saveButtonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "saveIconAlign": "left",
+      "sticky": "right",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "certification_type": {
+      "alias": "certification_type",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "select",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"certification_type\"])) :  currentRow[\"certification_type\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "certification_type",
+      "index": 4,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Certification Type",
+      "notation": "standard",
+      "originalId": "certification_type",
+      "selectOptions": "[\n    {\n        \"label\": \"Disability Enterprise\",\n        \"value\": \"Disability Enterprise\"\n    },\n    {\n        \"label\": \"Indigenous Business\",\n        \"value\": \"Indigenous Business\"\n    },\n    {\n        \"label\": \"Environmental Business\",\n        \"value\": \"Environmental Business\"\n    },\n    {\n        \"label\": \"Small to Medium Business\",\n        \"value\": \"Small to Medium Business\"\n    },\n    {\n        \"label\": \"Local Manufacturer\",\n        \"value\": \"Local Manufacturer\"\n    },\n    {\n        \"label\": \"Disability Social Enterprise\",\n        \"value\": \"Disability Social Enterprise\"\n    },\n    {\n        \"label\": \"Certified Social Enterprise\",\n        \"value\": \"Certified Social Enterprise\"\n    },\n    {\n        \"label\": \"Certified Indigenous Business\",\n        \"value\": \"Certified Indigenous Business\"\n    },\n    {\n        \"label\": \"Certified Disability Enterprise\",\n        \"value\": \"Certified Disability Enterprise\"\n    },\n    {\n        \"label\": \"Female Owned Business\",\n        \"value\": \"Female Owned Business\"\n    },\n    {\n        \"label\": \"Social Enterprise\",\n        \"value\": \"Social Enterprise\"\n    },\n    {\n        \"label\": \"Not For Profit\",\n        \"value\": \"Not For Profit\"\n    },\n    {\n        \"label\": \"B Corp\",\n        \"value\": \"B Corp\"\n    },\n    {\n        \"label\": \"Local Manufacturer\",\n        \"value\": \"Local Manufacturer\"\n    },\n    {\n        \"label\": \"SME\",\n        \"value\": \"SME\"\n    },\n    {\n        \"label\": \"Registered Indigenous Business\",\n        \"value\": \"Registered Indigenous Business\"\n    },\n    {\n        \"label\": \"Small Business\",\n        \"value\": \"Small Business\"\n    },\n    {\n        \"label\": \"Microenterprise\",\n        \"value\": \"Microenterprise\"\n    },\n    {\n        \"label\": \"Large Enterprise\",\n        \"value\": \"Large Enterprise\"\n    },\n    {\n        \"label\": \"Medium Business\",\n        \"value\": \"Medium Business\"\n    }\n]\n",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "id": {
+      "alias": "id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"id\"])) :  currentRow[\"id\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "id",
+      "notation": "standard",
+      "originalId": "id",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "percentage": {
+      "alias": "percentage",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "number",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"percentage\"])) :  currentRow[\"percentage\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "percentage",
+      "index": 5,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "percentage",
+      "notation": "standard",
+      "originalId": "percentage",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {
+        "max": "100",
+        "min": "0"
+      },
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "product_id": {
+      "alias": "product_id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "select",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow.product_id)) :  currentRow.product_id })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "product_id",
+      "index": 2,
+      "isCellEditable": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow.service_id === null))}}",
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isFilterable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Product",
+      "notation": "standard",
+      "originalId": "product_id",
+      "selectOptions": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( getProducts.data.map(p => ({label: `${p.name} (${p.business_name})`, value: p.id}))))}}",
+      "sortBy": "label",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "project_id": {
+      "alias": "project_id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "select",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow.project_id)) :  currentRow.project_id })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "project_id",
+      "index": 1,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isFilterable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Project",
+      "notation": "standard",
+      "originalId": "project_id",
+      "selectOptions": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( getProjects.data.map(p => ({label: p.name, value: p.id}))))}}",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "service_id": {
+      "alias": "service_id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "select",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"service_id\"])) :  currentRow[\"service_id\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "service_id",
+      "index": 3,
+      "isCellEditable": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow.product_id === null))}}",
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isFilterable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Service",
+      "newRowSelectOptions": "",
+      "notation": "standard",
+      "originalId": "service_id",
+      "selectOptions": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( getServices.data.map(p => ({label: `${p.name} (${p.business_name})`, value: p.id}))))}}",
+      "sortBy": "label",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchKey": "",
+  "showInlineEditingOptionDropdown": true,
+  "tableData": "{{getMatches.data}}",
+  "textSize": "0.875rem",
+  "topRow": 0,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "component-494l7gjdhd",
+  "widgetName": "Table1"
+}

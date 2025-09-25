@@ -1,0 +1,28 @@
+INSERT INTO public."service" (
+	"id",
+	"name",
+	"business_id",
+	"training_type",
+	"is_conduting_training",
+	"kpg_type",
+	"kpg_total",
+	"employee_disabled",
+	"employee_indigenous",
+	"employee_women_leaders",
+	"employee_women",
+	"employee_total"
+)
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.business_id}}',
+	'{{insert_form.formData.training_type}}',
+	'{{insert_form.formData.is_conduting_training}}',
+	'{{insert_form.formData.kpg_type}}',
+	'{{insert_form.formData.kpg_total}}',
+	'{{insert_form.formData.employee_disabled}}',
+	'{{insert_form.formData.employee_indigenous}}',
+	'{{insert_form.formData.employee_women_leaders}}',
+	'{{insert_form.formData.employee_women}}',
+	'{{insert_form.formData.employee_total}}'
+);

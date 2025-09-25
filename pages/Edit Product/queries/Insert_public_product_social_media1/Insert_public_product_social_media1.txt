@@ -1,0 +1,1 @@
+INSERT INTO public.product_social_media ("product_id","name", "link") VALUES ('{{(social_media_form.formData || {}).product_id}}','{{(social_media_form.formData || {}).name}}','{{(social_media_form.formData || {}).link}}')

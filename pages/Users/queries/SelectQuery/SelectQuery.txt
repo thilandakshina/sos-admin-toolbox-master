@@ -1,0 +1,6 @@
+SELECT application_user.*, business.name 
+FROM public.application_user
+JOIN business ON application_user.business_id = business.id
+WHERE application_user.last_name ILIKE '%{{data_table.searchText || ""}}%'
+LIMIT {{data_table.pageSize}}
+OFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};

@@ -1,0 +1,13 @@
+UPDATE public."buyer" SET
+		"head_office_address" = '{{update_form.fieldState.head_office_address.isVisible ? update_form.formData.head_office_address : update_form.sourceData.head_office_address}}',
+		"business_id" = '{{update_form.fieldState.business_id.isVisible ? update_form.formData.business_id : update_form.sourceData.business_id}}',
+    "company_size" = '{{update_form.fieldState.company_size.isVisible ? update_form.formData.company_size : update_form.sourceData.company_size}}',
+		"ownership_country" = '{{update_form.fieldState.ownership_country.isVisible ? update_form.formData.ownership_country : update_form.sourceData.ownership_country}}',
+		"turnover_pa" = '{{update_form.fieldState.turnover_pa.isVisible ? update_form.formData.turnover_pa : update_form.sourceData.turnover_pa}}',
+		"year_founded" = '{{update_form.fieldState.year_founded.isVisible ? update_form.formData.year_founded : update_form.sourceData.year_founded}}',
+		"head_office_state" = '{{update_form.fieldState.head_office_state.isVisible ? update_form.formData.head_office_state : update_form.sourceData.head_office_state}}',
+		"head_office_postcode" = '{{update_form.fieldState.head_office_postcode.isVisible ? update_form.formData.head_office_postcode : update_form.sourceData.head_office_postcode}}',
+		"head_office_country" = '{{update_form.fieldState.head_office_country.isVisible ? update_form.formData.head_office_country : update_form.sourceData.head_office_country}}',
+		"business_sector" = '{{update_form.fieldState.business_sector.isVisible ? update_form.formData.business_sector : update_form.sourceData.business_sector}}',
+		"business_type" = '{{update_form.fieldState.business_type.isVisible ? update_form.formData.business_type : update_form.sourceData.business_type}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

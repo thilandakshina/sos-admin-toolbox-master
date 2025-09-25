@@ -1,0 +1,63 @@
+{
+  "allowedFileTypes": [],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 79,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{data_table.selectedRow.id ? false : true}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "v9s9p3ndyp",
+  "label": "Proof of Certification Document",
+  "leftColumn": 44,
+  "maxFileSize": 5,
+  "maxNumFiles": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 82,
+  "mobileLeftColumn": 44,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 78,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{upload_cert.run().then(() => {\n  showAlert('File Uploaded', 'success');\n  storeValue('certification_doc_url', upload_cert.data.url.replace('us-west-2', 'ap-southeast-2'));\n  UpdateQuery.run();\n  resetWidget(\"FilePicker1\", true);\n  SelectQuery.run();\n});}}",
+  "originalBottomRow": 79,
+  "originalTopRow": 75,
+  "parentColumnSpace": 13.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "selectedFiles": [],
+  "topRow": 75,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "26e4ajxnvc",
+  "widgetName": "FilePicker1"
+}

@@ -1,0 +1,1 @@
+DELETE FROM public."supplier_images" WHERE id = '{{appsmith.store.media_delete}}'

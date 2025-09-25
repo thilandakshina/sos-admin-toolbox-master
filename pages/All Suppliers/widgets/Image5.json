@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 148,
+  "boxShadow": "none",
+  "defaultImage": "{{data_table.selectedRow.category_2_logo_url ?? 'https://icon2.cleanpng.com/20180605/ijl/aa9zxzu28.webp'}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultImage"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "t5gakrwmzn",
+  "leftColumn": 46,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 141,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 129,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "originalBottomRow": 148,
+  "originalTopRow": 134,
+  "parentColumnSpace": 17.09375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 55,
+  "topRow": 134,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "54t5yi79ep",
+  "widgetName": "Image5"
+}

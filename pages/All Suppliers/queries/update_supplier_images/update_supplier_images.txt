@@ -1,0 +1,10 @@
+UPDATE public.supplier 
+SET 
+    organisation_1_logo_url = {{appsmith.store.organisation_1_logo_url ?? data_table.selectedRow.organisation_1_logo_url}},
+		organisation_2_logo_url = {{appsmith.store.organisation_2_logo_url ?? data_table.selectedRow.organisation_2_logo_url}},
+		organisation_3_logo_url = {{appsmith.store.organisation_3_logo_url ?? data_table.selectedRow.organisation_3_logo_url}},
+		category_1_logo_url = {{appsmith.store.category_1_logo_url ?? data_table.selectedRow.category_1_logo_url}},
+		category_2_logo_url = {{appsmith.store.category_2_logo_url ?? data_table.selectedRow.category_2_logo_url}},
+		category_3_logo_url = {{appsmith.store.category_3_logo_url ?? data_table.selectedRow.category_3_logo_url}}
+WHERE 
+    id = {{data_table.selectedRow.id}};

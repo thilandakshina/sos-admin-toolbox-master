@@ -1,0 +1,16 @@
+      UPDATE public."product" SET
+        "business_id" = '{{update_form.formData.business_id}}',
+        "pre_order" = '{{update_form.formData.pre_order}}',
+        "available_from" = '{{update_form.formData.available_from}}',
+        "is_available" = '{{update_form.formData.is_available}}',
+        "units_per_quantity" = '{{update_form.formData.units_per_quantity}}',
+        "quantity_type" = '{{update_form.formData.quantity_type}}',
+        "is_gst_included" = '{{update_form.formData.is_gst_included}}',
+        "currency" = '{{update_form.formData.currency}}',
+        "sub_category" = '{{update_form.formData.sub_category}}',
+        "category" = '{{update_form.formData.category}}',
+        "packaging_type" = '{{update_form.formData.packaging_type}}',
+        "industry_sector" = '{{update_form.formData.industry_sector}}',
+        "type" = '{{update_form.formData.type}}',
+        "name" = '{{update_form.formData.name}}'
+      WHERE "id" = '{{update_form.formData.id}}'

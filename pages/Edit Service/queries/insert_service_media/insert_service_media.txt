@@ -1,0 +1,1 @@
+INSERT INTO public.service_media ("service_id","type","url") VALUES ('{{(media_form.formData || {}).service_id}}','{{(media_form.formData || {}).type}}','{{(media_form.formData || {}).url}}')

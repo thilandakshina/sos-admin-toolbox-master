@@ -1,0 +1,2 @@
+DELETE FROM public."business"
+  WHERE "id" = {{data_table.triggeredRow.id}};

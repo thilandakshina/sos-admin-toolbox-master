@@ -1,0 +1,5 @@
+SELECT id, business_id, company_size, ownership_country, turnover_pa, business_sector, business_type, service_category, sub_category, head_office_address FROM public."buyer"
+WHERE "head_office_address" ilike '%{{data_table.searchText || ""}}%'
+ORDER BY "{{data_table.sortOrder.column || 'id'}}" {{data_table.sortOrder.order || 'ASC'}}
+LIMIT {{data_table.pageSize}}
+OFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};

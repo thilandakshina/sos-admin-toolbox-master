@@ -1,0 +1,1 @@
+SELECT COUNT(public.business.id) FROM public.business;

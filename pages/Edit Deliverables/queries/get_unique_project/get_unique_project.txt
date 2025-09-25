@@ -1,0 +1,1 @@
+SELECT * FROM public."project" WHERE id = {{appsmith.store.selected_project}};

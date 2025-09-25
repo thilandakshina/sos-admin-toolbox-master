@@ -1,0 +1,13 @@
+UPDATE public."service" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"business_id" = '{{update_form.fieldState.business_id.isVisible ? update_form.formData.business_id : update_form.sourceData.business_id}}',
+    "training_type" = '{{update_form.fieldState.training_type.isVisible ? update_form.formData.training_type : update_form.sourceData.training_type}}',
+		"is_conduting_training" = '{{update_form.fieldState.is_conduting_training.isVisible ? update_form.formData.is_conduting_training : update_form.sourceData.is_conduting_training}}',
+		"kpg_type" = '{{update_form.fieldState.kpg_type.isVisible ? update_form.formData.kpg_type : update_form.sourceData.kpg_type}}',
+		"kpg_total" = '{{update_form.fieldState.kpg_total.isVisible ? update_form.formData.kpg_total : update_form.sourceData.kpg_total}}',
+		"employee_disabled" = '{{update_form.fieldState.employee_disabled.isVisible ? update_form.formData.employee_disabled : update_form.sourceData.employee_disabled}}',
+		"employee_indigenous" = '{{update_form.fieldState.employee_indigenous.isVisible ? update_form.formData.employee_indigenous : update_form.sourceData.employee_indigenous}}',
+		"employee_women_leaders" = '{{update_form.fieldState.employee_women_leaders.isVisible ? update_form.formData.employee_women_leaders : update_form.sourceData.employee_women_leaders}}',
+		"employee_women" = '{{update_form.fieldState.employee_women.isVisible ? update_form.formData.employee_women : update_form.sourceData.employee_women}}',
+		"employee_total" = '{{update_form.fieldState.employee_total.isVisible ? update_form.formData.employee_total : update_form.sourceData.employee_total}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

@@ -1,0 +1,19 @@
+INSERT INTO public.product_variation (
+	"id",
+	"product_id",
+	"name",
+	"color",
+	"size",
+	"quantity",
+	"other",
+	"price"
+) VALUES (
+	'{{uuid_min_js.UUID.generate()}}',
+	'{{(variation_form.formData || {}).product_id}}',
+	'{{(variation_form.formData || {}).name}}',
+	'{{(variation_form.formData || {}).color}}',
+	'{{(variation_form.formData || {}).size}}',
+	'{{(variation_form.formData || {}).quantity}}',
+	'{{(variation_form.formData || {}).other}}',
+	'{{(variation_form.formData || {}).price}}'
+)

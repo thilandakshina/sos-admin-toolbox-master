@@ -1,0 +1,1 @@
+INSERT INTO public.product_media ("product_id","type","url") VALUES ('{{(media_form.formData || {}).product_id}}','{{(media_form.formData || {}).type}}','{{(media_form.formData || {}).url}}')

@@ -1,0 +1,1 @@
+INSERT INTO public.service_social_media ("service_id","link") VALUES ('{{(JSONForm2.formData || {}).product_id}}','{{(JSONForm2.formData || {}).link}}')

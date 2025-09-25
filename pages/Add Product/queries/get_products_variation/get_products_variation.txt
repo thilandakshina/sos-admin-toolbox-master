@@ -1,0 +1,1 @@
+SELECT * FROM public."product_variation" WHERE product_id = '{{insert_form.formData.id}}';

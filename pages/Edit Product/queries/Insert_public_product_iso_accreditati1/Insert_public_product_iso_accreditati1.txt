@@ -1,0 +1,1 @@
+INSERT INTO public.product_iso_accreditation ("id", "product_id","name","iso_file_url") VALUES ('{{uuid_min_js.UUID.generate()}}','{{(iso_cert_update.formData || {}).product_id}}','{{(iso_cert_update.formData || {}).name}}','{{(iso_cert_update.formData || {}).iso_file_url}}')

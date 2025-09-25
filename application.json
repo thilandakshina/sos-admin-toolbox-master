@@ -1,0 +1,126 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#D6D1F2",
+  "evaluationVersion": 2,
+  "icon": "globe",
+  "pages": [
+    {
+      "id": "Home",
+      "isDefault": true
+    },
+    {
+      "id": "Common Businesses Info",
+      "isDefault": false
+    },
+    {
+      "id": "Users",
+      "isDefault": false
+    },
+    {
+      "id": "Add Product",
+      "isDefault": false
+    },
+    {
+      "id": "All Products",
+      "isDefault": false
+    },
+    {
+      "id": "Edit Product",
+      "isDefault": false
+    },
+    {
+      "id": "Add Service",
+      "isDefault": false
+    },
+    {
+      "id": "All Services",
+      "isDefault": false
+    },
+    {
+      "id": "Edit Service",
+      "isDefault": false
+    },
+    {
+      "id": "Edit Deliverables",
+      "isDefault": false
+    },
+    {
+      "id": "Projects",
+      "isDefault": false
+    },
+    {
+      "id": "Work Packages",
+      "isDefault": false
+    },
+    {
+      "id": "Project Image",
+      "isDefault": false
+    },
+    {
+      "id": "Supplier Matching",
+      "isDefault": false
+    },
+    {
+      "id": "All Suppliers",
+      "isDefault": false
+    },
+    {
+      "id": "All Buyers",
+      "isDefault": false
+    },
+    {
+      "id": "Add Supplier",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

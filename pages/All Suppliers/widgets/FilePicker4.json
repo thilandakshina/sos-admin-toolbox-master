@@ -1,0 +1,53 @@
+{
+  "allowedFileTypes": [],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 105,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "epra3plg79",
+  "label": "Organisation 3",
+  "leftColumn": 55,
+  "maxFileSize": 5,
+  "maxNumFiles": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 88,
+  "mobileLeftColumn": 49,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 84,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{upload_organisation_3_logo.run().then(() => {\n  showAlert('File Uploaded', 'success');\n  storeValue('organisation_3_logo_url', upload_organisation_3_logo.data.url.replace('us-west-2', 'ap-southeast-2'));\n  update_supplier_images.run().then(() => {\n    removeValue('organisation_3_logo_url');\n  });\n  resetWidget(\"FilePicker4\", true);\n  SelectQuery.run();\n});}}",
+  "parentColumnSpace": 17.09375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "selectedFiles": [],
+  "topRow": 101,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "i40msforhy",
+  "widgetName": "FilePicker4"
+}

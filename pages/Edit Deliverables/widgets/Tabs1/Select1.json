@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "1fb80jyin7",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Outcome",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{get_values.run()}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 25.15625,
+  "parentId": "5q2on456lz",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 24,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"ES Other (List)\",\n    \"code\": \"es_other\"\n  },\n  {\n    \"name\": \"ES Other Description (List)\",\n    \"code\": \"es_other_desc\"\n  },\n  {\n    \"name\": \"ES UNSDG Achieved (List)\",\n    \"code\": \"es_unsdg_achieved_list\"\n  },\n  {\n    \"name\": \"ES UNSDG Achieved (Yes/No)\",\n    \"code\": \"es_unsdg_achieved\"\n  },\n  {\n    \"name\": \"ES Certifications Obtained (List)\",\n    \"code\": \"es_certifications_obtained_list\"\n  },\n  {\n    \"name\": \"ES Certifications Obtained (Yes/No)\",\n    \"code\": \"es_certifications_obtained\"\n  },\n  {\n    \"name\": \"ES Circular Economy (List)\",\n    \"code\": \"es_circular_economy_list\"\n  },\n  {\n    \"name\": \"ES Circular Economy\",\n    \"code\": \"es_circular_economy\"\n  },\n  {\n    \"name\": \"ES Product Stewardship (List)\",\n    \"code\": \"es_product_stewardship_list\"\n  },\n  {\n    \"name\": \"ES Product Stewardship\",\n    \"code\": \"es_product_stewardship\"\n  },\n  {\n    \"name\": \"ES Rainwater Reuse (MLt)\",\n    \"code\": \"es_rainwater_reuse\"\n  },\n  {\n    \"name\": \"ES Water Decontamination (MLt)\",\n    \"code\": \"es_water_decontamination\"\n  },\n  {\n    \"name\": \"ES Soil Decontamination (m3)\",\n    \"code\": \"es_soil_decontamination\"\n  },\n  {\n    \"name\": \"ES Land Regeneration Other (m2)\",\n    \"code\": \"es_land_regeneration_other\"\n  },\n  {\n    \"name\": \"ES Land Regeneration Threatened (m2)\",\n    \"code\": \"es_land_regeneration_threatened\"\n  },\n  {\n    \"name\": \"ES Land Regeneration Habitat (m2)\",\n    \"code\": \"es_land_regeneration_habitat\"\n  },\n  {\n    \"name\": \"ES Land Regeneration General (m2)\",\n    \"code\": \"es_land_regeneration_general\"\n  },\n  {\n    \"name\": \"ES Bio Fuel (Litre)\",\n    \"code\": \"es_bio_fuel\"\n  },\n  {\n    \"name\": \"ES Renewable Energy Other (kWHr)\",\n    \"code\": \"es_renewable_energy_other\"\n  },\n  {\n    \"name\": \"ES Renewable Energy Hydro (kWHr)\",\n    \"code\": \"es_renewable_energy_hydro\"\n  },\n  {\n    \"name\": \"ES Renewable Energy Hydrogen (kWHr)\",\n    \"code\": \"es_renewable_energy_hydrogen\"\n  },\n  {\n    \"name\": \"ES Renewable Energy Wind (kWHr)\",\n    \"code\": \"es_renewable_energy_wind\"\n  },\n  {\n    \"name\": \"ES Renewable Energy BESS (kWHr)\",\n    \"code\": \"es_renewable_energy_bess\"\n  },\n  {\n    \"name\": \"ES Renewable Energy Solar (kWHr)\",\n    \"code\": \"es_renewable_energy_solar\"\n  },\n  {\n    \"name\": \"ES Recycled Plastics Materials (Tonne)\",\n    \"code\": \"es_recycled_plastics_materials\"\n  },\n  {\n    \"name\": \"ES Waste Other (Tonne)\",\n    \"code\": \"es_waste_other\"\n  },\n  {\n    \"name\": \"ES Waste Recycled (Tonne)\",\n    \"code\": \"es_waste_recycled\"\n  },\n  {\n    \"name\": \"ES Waste Reused (Tonne)\",\n    \"code\": \"es_waste_reused\"\n  },\n  {\n    \"name\": \"ES Waste Reduced (Tonne)\",\n    \"code\": \"es_waste_reduced\"\n  },\n  {\n    \"name\": \"ES Environmental Compliance (Yes/No)\",\n    \"code\": \"es_environmental_compliance\"\n  },\n  {\n    \"name\": \"ES CO2 Emissions Offset (Tonne)\",\n    \"code\": \"es_co2_emissions_offset\"\n  },\n  {\n    \"name\": \"ES CO2 Emissions Captured (Tonne)\",\n    \"code\": \"es_co2_emissions_captured\"\n  },\n  {\n    \"name\": \"ES CO2 Emissions Eliminated (Tonne)\",\n    \"code\": \"es_co2_emissions_eliminated\"\n  },\n  {\n    \"name\": \"ES Embodied CO2 Offset (Tonne)\",\n    \"code\": \"es_embodied_co2_offset\"\n  },\n  {\n    \"name\": \"ES Embodied CO2 Captured (Tonne)\",\n    \"code\": \"es_embodied_co2_captured\"\n  },\n  {\n    \"name\": \"ES Embodied CO2 Eliminated (Tonne)\",\n    \"code\": \"es_embodied_co2_eliminated\"\n  },\n  {\n    \"name\": \"MPSG Job Readiness (Hours)\",\n    \"code\": \"mpsg_job_readiness_hours\"\n  },\n  {\n    \"name\": \"MPSG Interstate Standard Roles Retained (Hours)\",\n    \"code\": \"mpsg_interstate_standard_roles_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG Interstate Standard New Roles (Hours)\",\n    \"code\": \"mpsg_interstate_standard_roles_new_hours\"\n  },\n  {\n    \"name\": \"MPSG Interstate Cadets Retained (Hours)\",\n    \"code\": \"mpsg_interstate_cadets_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG Interstate Trainees Retained (Hours)\",\n    \"code\": \"mpsg_interstate_trainees_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG Interstate Apprentices Retained (Hours)\",\n    \"code\": \"mpsg_interstate_apprentices_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG Interstate New Cadets (Hours)\",\n    \"code\": \"mpsg_interstate_cadets_new_hours\"\n  },\n  {\n    \"name\": \"MPSG Interstate New Trainees New (Hours)\",\n    \"code\": \"mpsg_interstate_trainees_new_hours\"\n  },\n  {\n    \"name\": \"MPSG Interstate New Apprentices (Hours)\",\n    \"code\": \"mpsg_interstate_apprentices_new_hours\"\n  },\n  {\n    \"name\": \"MPSG State Standard Roles Retained (Hours)\",\n    \"code\": \"mpsg_state_standard_roles_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG State New Standard Roles (Hours)\",\n    \"code\": \"mpsg_state_standard_roles_new_hours\"\n  },\n  {\n    \"name\": \"MPSG State Cadets Retained (Hours)\",\n    \"code\": \"mpsg_state_cadets_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG State Trainees Retained (Hours)\",\n    \"code\": \"mpsg_state_trainees_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG State Apprentices Retained (Hours)\",\n    \"code\": \"mpsg_state_apprentices_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG New State Cadets (Hours)\",\n    \"code\": \"mpsg_state_cadets_new_hours\"\n  },\n  {\n    \"name\": \"MPSG New State Trainees (Hours)\",\n    \"code\": \"mpsg_state_trainees_new_hours\"\n  },\n  {\n    \"name\": \"MPSG New State Apprentices (Hours)\",\n    \"code\": \"mpsg_state_apprentices_new_hours\"\n  },\n  {\n    \"name\": \"MPSG Local Standard Roles Retained (Hours)\",\n    \"code\": \"mpsg_local_standard_roles_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG New Local Standard Roles (Hours)\",\n    \"code\": \"mpsg_local_standard_roles_new_hours\"\n  },\n  {\n    \"name\": \"MPSG Local Cadets Retained (Hours)\",\n    \"code\": \"mpsg_local_cadets_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG Local Trainees Retained (Hours)\",\n    \"code\": \"mpsg_local_trainees_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG Local Apprentices Retained (Hours)\",\n    \"code\": \"mpsg_local_apprentices_retained_hours\"\n  },\n  {\n    \"name\": \"MPSG New Local Cadets (Hours)\",\n    \"code\": \"mpsg_local_cadets_new_hours\"\n  },\n  {\n    \"name\": \"MPSG New Local Trainees (Hours)\",\n    \"code\": \"mpsg_local_trainees_new_hours\"\n  },\n  {\n    \"name\": \"MPSG New Local Apprentices (Hours)\",\n    \"code\": \"mpsg_local_apprentices_new_hours\"\n  },\n  {\n    \"name\": \"MPSG Project Programme (Months)\",\n    \"code\": \"mpsg_project_programme\"\n  },\n  {\n    \"name\": \"LIDP Subcontractors Project Wide (No. of)\",\n    \"code\": \"lidp_subcontractors_project_wide\"\n  },\n  {\n    \"name\": \"LIDP SMEs Project Wide (No. of)\",\n    \"code\": \"lidp_smes_project_wide\"\n  },\n  {\n    \"name\": \"LIDP Subcontractors Work Package (No. of)\",\n    \"code\": \"lidp_subcontractors_work_package\"\n  },\n  {\n    \"name\": \"LIDP SMEs Work Package Wide (No. of)\",\n    \"code\": \"lidp_smes_work_package_wide\"\n  },\n  {\n    \"name\": \"LIDP Technology Transfer (Yes/No)\",\n    \"code\": \"lidp_technology_transfer\"\n  },\n  {\n    \"name\": \"LIDP Locally Sourced Products (Yes/No)\",\n    \"code\": \"lidp_locally_sourced_products\"\n  },\n  {\n    \"name\": \"LIDP Local Manufacturing (Yes/No)\",\n    \"code\": \"lidp_local_manufacturing\"\n  },\n  {\n    \"name\": \"LIDP Local Suppliers Verified (Postcode)\",\n    \"code\": \"lidp_local_suppliers_verified_postcode\"\n  },\n  {\n    \"name\": \"LIDP Local Suppliers Verified (Yes/No)\",\n    \"code\": \"lidp_local_suppliers_verified\"\n  },\n  {\n    \"name\": \"BEP Females Leadership (No. of)\",\n    \"code\": \"bep_females_leadership\"\n  },\n  {\n    \"name\": \"BEP Females Trades Project (Hours)\",\n    \"code\": \"bep_females_trades_project_hrs\"\n  },\n  {\n    \"name\": \"BEP Females Trades Project (Number)\",\n    \"code\": \"bep_females_trades_project_num\"\n  },\n  {\n    \"name\": \"BEP Females Trades Wide (Hours)\",\n    \"code\": \"bep_females_trades_wide_hrs\"\n  },\n  {\n    \"name\": \"BEP Females Trades Wide (Number)\",\n    \"code\": \"bep_females_trades_wide_num\"\n  },\n  {\n    \"name\": \"BEP Project GEAP Certified (Yes/No)\",\n    \"code\": \"bep_project_geap_certified\"\n  },\n  {\n    \"name\": \"BEP Project GEAP Registered (Yes/No)\",\n    \"code\": \"bep_project_geap_registered\"\n  },\n  {\n    \"name\": \"BEP GEAP Certified (Yes/No)\",\n    \"code\": \"bep_geap_certified\"\n  },\n  {\n    \"name\": \"BEP GEAP Registered (Yes/No)\",\n    \"code\": \"bep_geap_registered\"\n  },\n  {\n    \"name\": \"SPF Disability Training (Hours)\",\n    \"code\": \"spf_disability_training\"\n  },\n  {\n    \"name\": \"SPF Local Disability Training (Hours)\",\n    \"code\": \"spf_local_disability_training\"\n  },\n  {\n    \"name\": \"SPF Disability Enterprise (Hours)\",\n    \"code\": \"spf_disability_enterprise\"\n  },\n  {\n    \"name\": \"SPF Local Disability Enterprise (Hours)\",\n    \"code\": \"spf_local_disability_enterprise\"\n  },\n  {\n    \"name\": \"SPF Local Priority Group (Hours)\",\n    \"code\": \"spf_local_priority_group_hrs\"\n  },\n  {\n    \"name\": \"SPF Local Priority Group (Number)\",\n    \"code\": \"spf_local_priority_group_num\"\n  },\n  {\n    \"name\": \"SPF Priority Group (Hours)\",\n    \"code\": \"spf_priority_group_hrs\"\n  },\n  {\n    \"name\": \"SPF Priority Group (Number)\",\n    \"code\": \"spf_priority_group_num\"\n  },\n  {\n    \"name\": \"SPF Social Enterprise (Hours)\",\n    \"code\": \"spf_social_enterprise\"\n  },\n  {\n    \"name\": \"SPF Local Social Enterprise (Hours)\",\n    \"code\": \"spf_local_social_enterprise\"\n  },\n  {\n    \"name\": \"SPF ATSI Training (Hours)\",\n    \"code\": \"spf_atsi_training_hrs\"\n  },\n  {\n    \"name\": \"SPF ATSI Training (Percentage)\",\n    \"code\": \"spf_atsi_training_pct\"\n  },\n  {\n    \"name\": \"SPF ATSI Training (Number)\",\n    \"code\": \"spf_atsi_training_num\"\n  },\n  {\n    \"name\": \"SPF Local ATSI Training (Hours)\",\n    \"code\": \"spf_local_atsi_training_hrs\"\n  },\n  {\n    \"name\": \"SPF Local ATSI Training (Percentage)\",\n    \"code\": \"spf_local_atsi_training_pct\"\n  },\n  {\n    \"name\": \"SPF Local ATSI Training (Number)\",\n    \"code\": \"spf_local_atsi_training_num\"\n  },\n  {\n    \"name\": \"SPF Indigenous Inclusion ($)\",\n    \"code\": \"spf_indigenous\"\n  },\n  {\n    \"name\": \"SPF Local Indigenous Inclusion ($)\",\n    \"code\": \"spf_local_indigenous\"\n  }\n]",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "23d9tv1uzf",
+  "widgetName": "Select1"
+}

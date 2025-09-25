@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66876f1c2c7ef43f2c319204_bb19b2b0-6cfd-47fc-88ca-0f78f3db2446",
+  "id": "Add Service_generateGUID",
+  "unpublishedCollection": {
+    "name": "generateGUID",
+    "pageId": "Add Service",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,1 @@
+DELETE FROM public.product_social_media WHERE id = {{social_media_table.triggeredRow.id}}

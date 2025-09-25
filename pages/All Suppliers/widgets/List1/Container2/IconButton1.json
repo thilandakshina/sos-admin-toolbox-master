@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "#dd4b34",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "trash",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "1vd61xndno",
+  "leftColumn": 48,
+  "minWidth": 50,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 41,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "onClick": "{{storeValue('media_delete', currentItem.id).then(() => {\n  delete_media.run();\n  removeValue('media_delete');\n  supplier_images.run();\n});}}",
+  "parentColumnSpace": 4.5400390625,
+  "parentId": "491tmyq7xi",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 61,
+  "topRow": 3,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "dmgjeo5r04",
+  "widgetName": "IconButton1"
+}

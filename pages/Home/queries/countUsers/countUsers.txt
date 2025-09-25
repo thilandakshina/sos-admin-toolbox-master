@@ -1,0 +1,1 @@
+SELECT COUNT(public.application_user.id) FROM public.application_user;

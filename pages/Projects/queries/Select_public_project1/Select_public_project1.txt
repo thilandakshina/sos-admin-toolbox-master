@@ -1,0 +1,12 @@
+SELECT
+  id, name, owner, client, auditor, site_location, is_internal, duration_weeks, duration_weeks_variation, total_cost, cost_of_trades, total_cost_variation, cost_of_trades_variation, contract_type, workforce_hours, package_type
+FROM
+  public.project
+WHERE
+  "name" ilike '%{{Table1.searchText}}%' AND is_work_package = FALSE
+ORDER BY
+  "{{Table1.sortOrder.column || 'id'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}

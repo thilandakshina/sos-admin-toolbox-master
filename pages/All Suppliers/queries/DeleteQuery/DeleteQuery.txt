@@ -1,0 +1,2 @@
+DELETE FROM public."supplier"
+  WHERE "id" = {{data_table.triggeredRow.id}};

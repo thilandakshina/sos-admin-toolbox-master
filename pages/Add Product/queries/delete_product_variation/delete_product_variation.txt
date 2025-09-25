@@ -1,0 +1,2 @@
+DELETE FROM public."product_variation"
+  WHERE "id" = {{variation_table.triggeredRow.id}};

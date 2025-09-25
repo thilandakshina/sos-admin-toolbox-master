@@ -1,0 +1,12 @@
+UPDATE public."application_user" SET
+		"last_name" = '{{update_form.fieldState.last_name.isVisible ? update_form.formData.last_name : update_form.sourceData.last_name}}',
+		"first_name" = '{{update_form.fieldState.first_name.isVisible ? update_form.formData.first_name : update_form.sourceData.first_name}}',
+    "email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+		"phone" = '{{update_form.fieldState.phone.isVisible ? update_form.formData.phone : update_form.sourceData.phone}}',
+		"password" = '{{update_form.fieldState.password.isVisible ? update_form.formData.password : update_form.sourceData.password}}',
+		"otp" = '{{update_form.fieldState.otp.isVisible ? update_form.formData.otp : update_form.sourceData.otp}}',
+		"otp_generated_at" = '{{update_form.fieldState.otp_generated_at.isVisible ? update_form.formData.otp_generated_at : update_form.sourceData.otp_generated_at}}',
+		"otp_request_count" = '{{update_form.fieldState.otp_request_count.isVisible ? update_form.formData.otp_request_count : update_form.sourceData.otp_request_count}}',
+		"is_verified" = '{{update_form.fieldState.is_verified.isVisible ? update_form.formData.is_verified : update_form.sourceData.is_verified}}',
+		"business_id" = '{{update_form.fieldState.business_id.isVisible ? update_form.formData.business_id : update_form.sourceData.business_id}}'
+WHERE "id" = {{data_table.selectedRow.id}};

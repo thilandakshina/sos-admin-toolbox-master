@@ -1,0 +1,8 @@
+INSERT INTO public."matched_supplier" (id, project_id, product_id, certification_type, percentage) 
+VALUES (
+  '{{uuid_min_js.UUID.generate()}}', 
+  {{Table1.newRow.project_id ? `${Table1.newRow.project_id}` : 'NULL'}}, 
+  {{Table1.newRow.product_id ? `${Table1.newRow.product_id}` : 'NULL'}}, 
+  {{Table1.newRow.certification_type ? `${Table1.newRow.certification_type}` : 'NULL'}}, 
+  {{Table1.newRow.percentage ? `${Table1.newRow.percentage}` : 'NULL'}}
+);

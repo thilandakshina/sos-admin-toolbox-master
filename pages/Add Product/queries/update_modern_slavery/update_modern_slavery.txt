@@ -1,0 +1,2 @@
+UPDATE public.product SET modern_slavery_declaration_file_url = {{appsmith.store.msd_url}} 
+WHERE id = {{insert_form.formData.id}}

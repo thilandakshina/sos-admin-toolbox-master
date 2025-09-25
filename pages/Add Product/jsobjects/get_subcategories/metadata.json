@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67593b6284535e18d394d2d2_cdef2c38-bf33-4735-b6f8-24568a7c11ae",
+  "id": "Add Product_get_subcategories",
+  "unpublishedCollection": {
+    "name": "get_subcategories",
+    "pageId": "Add Product",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

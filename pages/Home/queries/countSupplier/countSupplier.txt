@@ -1,0 +1,1 @@
+SELECT COUNT(public.supplier.id) FROM public.supplier;

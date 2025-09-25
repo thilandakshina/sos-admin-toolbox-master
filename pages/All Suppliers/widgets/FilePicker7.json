@@ -1,0 +1,57 @@
+{
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 134,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "nhj499ni0h",
+  "label": "Category 3",
+  "leftColumn": 55,
+  "maxFileSize": 5,
+  "maxNumFiles": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 129,
+  "mobileLeftColumn": 48,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 125,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{upload_category_3_logo.run().then(() => {\n  showAlert('Uploaded', 'success');\n  storeValue('category_3_logo_url', upload_category_3_logo.data.url.replace('us-west-2', 'ap-southeast-2'));\n  update_supplier_images.run();\n  resetWidget(\"FilePicker7\", true);\n  SelectQuery.run();\n});}}",
+  "originalBottomRow": 134,
+  "originalTopRow": 130,
+  "parentColumnSpace": 17.09375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "selectedFiles": [],
+  "topRow": 130,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "elqlyiwtls",
+  "widgetName": "FilePicker7"
+}

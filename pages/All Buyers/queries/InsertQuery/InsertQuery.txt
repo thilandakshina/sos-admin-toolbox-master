@@ -1,0 +1,28 @@
+INSERT INTO public."buyer" (
+	"id",
+	"head_office_address",
+	"business_id",
+	"company_size",
+	"ownership_country",
+	"turnover_pa",
+	"year_founded",
+	"head_office_state",
+	"head_office_postcode",
+	"head_office_country",
+	"business_sector",
+	"business_type"
+)
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.head_office_address}}',
+	'{{insert_form.formData.business_id}}',
+	'{{insert_form.formData.company_size}}',
+	'{{insert_form.formData.ownership_country}}',
+	'{{insert_form.formData.turnover_pa}}',
+	'{{insert_form.formData.year_founded}}',
+	'{{insert_form.formData.head_office_state}}',
+	'{{insert_form.formData.head_office_postcode}}',
+	'{{insert_form.formData.head_office_country}}',
+	'{{insert_form.formData.business_sector}}',
+	'{{insert_form.formData.business_type}}'
+);

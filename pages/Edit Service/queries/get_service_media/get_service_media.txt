@@ -1,0 +1,1 @@
+SELECT * FROM public."service_media" WHERE service_id = {{update_form.formData.id}};

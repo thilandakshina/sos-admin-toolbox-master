@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 121,
+  "boxShadow": "none",
+  "defaultImage": "{{data_table.selectedRow.organisation_1_logo_url ?? 'https://icon2.cleanpng.com/20180605/ijl/aa9zxzu28.webp'}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultImage"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vpj6dubyf2",
+  "leftColumn": 37,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 130,
+  "mobileLeftColumn": 39,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 118,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "parentColumnSpace": 17.09375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 46,
+  "topRow": 105,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "9ug7gakgan",
+  "widgetName": "Image3"
+}

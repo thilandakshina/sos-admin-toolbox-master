@@ -1,0 +1,1 @@
+SELECT COUNT(public.product.id) FROM public.product;

@@ -1,0 +1,2879 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": false,
+  "backgroundColor": "#fff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 104,
+  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "schema.__root_schema__.children.customField5.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField5.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField6.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField6.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField47.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField47.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField7.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField7.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField8.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField8.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField1.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField1.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField45.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField45.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField2.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField2.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField46.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField46.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField46.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col12.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col12.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField3.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField3.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField43.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField43.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField43.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col11.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.col11.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col11.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField4.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField4.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField44.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField44.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField41.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField41.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField40.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col8.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col8.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col9.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col9.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col6.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col6.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col7.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col7.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col4.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.col4.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col4.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col5.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col5.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col2.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.col2.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col2.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField9.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField9.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col3.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col3.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col1.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.col1.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col1.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField16.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField16.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField17.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField17.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField14.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField14.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField15.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField15.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField12.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField12.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField13.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField13.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField10.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField10.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField11.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField11.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.col10.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.col10.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.col10.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField18.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField18.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField19.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField19.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField27.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField27.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField28.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField28.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField25.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField25.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField23.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField23.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField24.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField24.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField21.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField21.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField22.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField22.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField20.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField20.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField29.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField29.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField38.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField38.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField39.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField39.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField36.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField36.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField36.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField37.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField34.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField34.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField35.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField35.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField35.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField32.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField32.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField33.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField33.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField30.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField30.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField31.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField31.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField48.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField48.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField48.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField48.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField49.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField49.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField49.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField49.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField50.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField50.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField51.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField51.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField52.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField52.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField53.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField53.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField53.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField54.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField54.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField55.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField55.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField55.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField55.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField56.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField56.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField57.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField57.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField57.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField57.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField58.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField58.borderRadius"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField58.options"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField59.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField59.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField60.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField60.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField60.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField60.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField61.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField61.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField61.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField61.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField62.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField62.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField40.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField63.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField63.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField64.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField64.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField65.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField65.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField66.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField66.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField63.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField63.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField64.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField64.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField65.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField65.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField66.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField66.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField67.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField67.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField67.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField67.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField68.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField68.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField68.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField69.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField69.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField69.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField69.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField70.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField70.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField70.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField70.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField71.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField71.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField71.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField71.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField72.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField72.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField72.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField72.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField73.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField73.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField73.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField73.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField74.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField74.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField74.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField74.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField75.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField75.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField75.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField76.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField76.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField76.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField76.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField68.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField75.isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.col5.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.col4.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField36.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField35.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField48.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField48.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField49.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField49.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField55.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField55.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField57.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField57.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField60.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField60.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField61.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField61.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField63.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField63.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField64.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField64.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField65.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField65.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField66.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField66.isVisible"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField67.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField67.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField68.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField69.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField69.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField70.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField70.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField71.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField71.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField72.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField72.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField73.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField73.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField74.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField74.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField75.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField75.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField76.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField76.isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField68.isRequired"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "schema.__root_schema__.children.customField46.onOptionChange"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.6bacf7df.svg",
+  "isLoading": false,
+  "isVisible": "true",
+  "key": "h9l9ozr8op",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "{{insert_product.run().then(() => {\n  showAlert('Successfully added!', 'success');\n  removeValue('msd_url');\n  storeValue('default_tab', 'Variations');\n}).catch(() => {\n  showAlert('Unexpected error', 'error');\n});}}",
+  "parentColumnSpace": 8.125,
+  "parentId": "rz2vz4gd97",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "#3b82f6",
+    "buttonVariant": "SECONDARY"
+  },
+  "rightColumn": 63,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "col1": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (appsmith.store.product_uuid))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "col1",
+          "isCustomField": false,
+          "isDisabled": true,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Product ID / Unique Identifier",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "col1",
+          "position": 0,
+          "sourceData": 5
+        },
+        "col10": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "employee_women",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col10))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "col10",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Number of Women Employed",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "col10",
+          "position": 52
+        },
+        "col11": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "employee_total",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col11))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "col11",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Total Number of Employees",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "col11",
+          "position": 48
+        },
+        "col12": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "sbs_total",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "col12",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Number of Social Benefit Suppliers Used In Supply Chain",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "col12",
+          "position": 29
+        },
+        "col2": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "business_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "col2",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": true,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Linked Business / Supplier",
+          "labelTextSize": "0.875rem",
+          "options": "{{get_business_list.data.map(p => ({label: p.name, value: p.id}))}}",
+          "originalIdentifier": "col2",
+          "position": 1,
+          "serverSideFiltering": false,
+          "sourceData": "skill B"
+        },
+        "col3": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "training_type",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "",
+          "fieldType": "Multiselect",
+          "identifier": "col3",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Type of Training",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Apprentices\",\n    \"value\": \"apprentices\"\n  },\n  {\n    \"label\": \"Cadet\",\n    \"value\": \"cadet\"\n  },\n  {\n    \"label\": \"Trainee\",\n    \"value\": \"trainee\"\n  },\n\t{\n    \"label\": \"Graduate\",\n    \"value\": \"graduate\"\n  }\n]",
+          "originalIdentifier": "col3",
+          "position": 23,
+          "serverSideFiltering": false,
+          "sourceData": 9
+        },
+        "col4": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_conduting_training",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col4))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Checkbox",
+          "identifier": "col4",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Does your organisation conduct training?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "col4",
+          "position": 35,
+          "sourceData": true
+        },
+        "col5": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "kpg_types",
+          "allowSelectAll": true,
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "",
+          "fieldType": "Multiselect",
+          "identifier": "col5",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": true,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Please select the priority workforce groups your business currently employs",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Aboriginal and Torres Strait Islanders\",\n    \"value\": \"aboriginal_and_torres_strait_islanders\"\n  },\n  {\n    \"label\": \"Asylum Seekers/ Refugees/ New Migrants\",\n    \"value\": \"asylum_seekers_refugees_new_migrants\"\n  },\n  {\n    \"label\": \"Disadvantages\",\n    \"value\": \"disadvantages\"\n  },\n  {\n    \"label\": \"LGBTQIA+\",\n    \"value\": \"lgbtqia_plus\"\n  },\n  {\n    \"label\": \"Long Term Unemployed\",\n    \"value\": \"long_term_unemployed\"\n  },\n  {\n    \"label\": \"Mature Aged Employees\",\n    \"value\": \"mature_aged_employees\"\n  },\n  {\n    \"label\": \"People Living with a Disability\",\n    \"value\": \"people_with_disabilities\"\n  },\n  {\n    \"label\": \"School Leavers/ Youth 16-24\",\n    \"value\": \"school_leavers_youth_16_24\"\n  },\n  {\n    \"label\": \"Single Parents Re-entering the Workforce\",\n    \"value\": \"single_parents_reentering_workforce\"\n  },\n  {\n    \"label\": \"Women Escaping Violence\",\n    \"value\": \"women_escaping_violence\"\n  }\n]",
+          "originalIdentifier": "col5",
+          "position": 36,
+          "serverSideFiltering": false
+        },
+        "col6": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "kpg_total",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "col6",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Of the previous priority workforce groups selected, please list the number of each employed at your business",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "col6",
+          "position": 47
+        },
+        "col7": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "employee_disabled",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "col7",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Number of People Living With Disabilities",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "col7",
+          "position": 49
+        },
+        "col8": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "employee_indigenous",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "col8",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Number of indigenous Employees",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "col8",
+          "position": 50
+        },
+        "col9": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "employee_women_leaders",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "col9",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Number of Women In Leadership Roles",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "col9",
+          "position": 51
+        },
+        "customField1": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "manufacturing_materials",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField1",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "List Type of Materials Manufactured In ANZ",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Bioplastics\",\n    \"value\": \"Bioplastics\"\n  },\n  {\n    \"label\": \"Recycled Concrete\",\n    \"value\": \"Recycled Concrete\"\n  },\n  {\n    \"label\": \"Acrylic (PMMA)\",\n    \"value\": \"Acrylic (PMMA)\"\n  },\n  {\n    \"label\": \"Adhesives and Sealants\",\n    \"value\": \"Adhesives and Sealants\"\n  },\n  {\n    \"label\": \"Aggregate\",\n    \"value\": \"Aggregate\"\n  },\n  {\n    \"label\": \"Aluminum\",\n    \"value\": \"Aluminum\"\n  },\n  {\n    \"label\": \"Asphalt\",\n    \"value\": \"Asphalt\"\n  },\n  {\n    \"label\": \"Bamboo\",\n    \"value\": \"Bamboo\"\n  },\n  {\n    \"label\": \"Bitumen\",\n    \"value\": \"Bitumen\"\n  },\n  {\n    \"label\": \"Blocks\",\n    \"value\": \"Blocks\"\n  },\n  {\n    \"label\": \"Bricks\",\n    \"value\": \"Bricks\"\n  },\n  {\n    \"label\": \"Carbon Fibre\",\n    \"value\": \"Carbon Fibre\"\n  },\n  {\n    \"label\": \"Cast Iron\",\n    \"value\": \"Cast Iron\"\n  },\n  {\n    \"label\": \"Cement\",\n    \"value\": \"Cement\"\n  },\n  {\n    \"label\": \"Chipboard\",\n    \"value\": \"Chipboard\"\n  },\n  {\n    \"label\": \"Clay\",\n    \"value\": \"Clay\"\n  },\n  {\n    \"label\": \"Composite Materials\",\n    \"value\": \"Composite Materials\"\n  },\n  {\n    \"label\": \"Concrete\",\n    \"value\": \"Concrete\"\n  },\n  {\n    \"label\": \"Copper\",\n    \"value\": \"Copper\"\n  },\n  {\n    \"label\": \"Cork\",\n    \"value\": \"Cork\"\n  },\n  {\n    \"label\": \"Cotton\",\n    \"value\": \"Cotton\"\n  },\n  {\n    \"label\": \"Cross-Laminated Timber (CLT)\",\n    \"value\": \"Cross-Laminated Timber (CLT)\"\n  },\n  {\n    \"label\": \"Cyramic\",\n    \"value\": \"Cyramic\"\n  },\n  {\n    \"label\": \"Earth Materials\",\n    \"value\": \"Earth Materials\"\n  },\n  {\n    \"label\": \"Earthenware\",\n    \"value\": \"Earthenware\"\n  },\n  {\n    \"label\": \"Fabric\",\n    \"value\": \"Fabric\"\n  },\n  {\n    \"label\": \"Fiber Reinforced Polymers (FRP)\",\n    \"value\": \"Fiber Reinforced Polymers (FRP)\"\n  },\n  {\n    \"label\": \"Flax Fiber\",\n    \"value\": \"Flax Fiber\"\n  },\n  {\n    \"label\": \"Fly Ash\",\n    \"value\": \"Fly Ash\"\n  },\n  {\n    \"label\": \"Foam\",\n    \"value\": \"Foam\"\n  },\n  {\n    \"label\": \"Glass\",\n    \"value\": \"Glass\"\n  },\n  {\n    \"label\": \"Glass Fiber\",\n    \"value\": \"Glass Fiber\"\n  },\n  {\n    \"label\": \"Granite\",\n    \"value\": \"Granite\"\n  },\n  {\n    \"label\": \"Gravel\",\n    \"value\": \"Gravel\"\n  },\n  {\n    \"label\": \"Green Cement\",\n    \"value\": \"Green Cement\"\n  },\n  {\n    \"label\": \"Gypsum\",\n    \"value\": \"Gypsum\"\n  },\n  {\n    \"label\": \"Gypsum Board\",\n    \"value\": \"Gypsum Board\"\n  },\n  {\n    \"label\": \"Hemp\",\n    \"value\": \"Hemp\"\n  },\n  {\n    \"label\": \"Hempcrete\",\n    \"value\": \"Hempcrete\"\n  },\n  {\n    \"label\": \"Insulation Materials\",\n    \"value\": \"Insulation Materials\"\n  },\n  {\n    \"label\": \"Iron\",\n    \"value\": \"Iron\"\n  },\n  {\n    \"label\": \"Leather\",\n    \"value\": \"Leather\"\n  },\n  {\n    \"label\": \"Lime\",\n    \"value\": \"Lime\"\n  },\n  {\n    \"label\": \"Locally Manufactured Steel\",\n    \"value\": \"Locally Manufactured Steel\"\n  },\n  {\n    \"label\": \"Marble\",\n    \"value\": \"Marble\"\n  },\n  {\n    \"label\": \"Metal\",\n    \"value\": \"Metal\"\n  },\n  {\n    \"label\": \"Mud\",\n    \"value\": \"Mud\"\n  },\n  {\n    \"label\": \"Natural Stone\",\n    \"value\": \"Natural Stone\"\n  },\n  {\n    \"label\": \"Nylon (PA)\",\n    \"value\": \"Nylon (PA)\"\n  },\n  {\n    \"label\": \"Organic Cotton\",\n    \"value\": \"Organic Cotton\"\n  },\n  {\n    \"label\": \"Paint\",\n    \"value\": \"Paint\"\n  },\n  {\n    \"label\": \"Paper\",\n    \"value\": \"Paper\"\n  },\n  {\n    \"label\": \"Plasterboard\",\n    \"value\": \"Plasterboard\"\n  },\n  {\n    \"label\": \"Plastic\",\n    \"value\": \"Plastic\"\n  },\n  {\n    \"label\": \"Polyethylene (PE)\",\n    \"value\": \"Polyethylene (PE)\"\n  },\n  {\n    \"label\": \"Polypropylene (PP)\",\n    \"value\": \"Polypropylene (PP)\"\n  },\n  {\n    \"label\": \"Polyvinyl Chloride (PVC)\",\n    \"value\": \"Polyvinyl Chloride (PVC)\"\n  },\n  {\n    \"label\": \"Porcelain\",\n    \"value\": \"Porcelain\"\n  },\n  {\n    \"label\": \"Recycled and Sustainable Materials\",\n    \"value\": \"Recycled and Sustainable Materials\"\n  },\n  {\n    \"label\": \"Recycled Cardboard\",\n    \"value\": \"Recycled Cardboard\"\n  },\n  {\n    \"label\": \"Recycled Cotton\",\n    \"value\": \"Recycled Cotton\"\n  },\n  {\n    \"label\": \"Recycled Electronics (E-waste)\",\n    \"value\": \"Recycled Electronics (E-waste)\"\n  },\n  {\n    \"label\": \"Recycled Glass\",\n    \"value\": \"Recycled Glass\"\n  },\n  {\n    \"label\": \"Recycled Masonry\",\n    \"value\": \"Recycled Masonry\"\n  },\n  {\n    \"label\": \"Recycled Metals\",\n    \"value\": \"Recycled Metals\"\n  },\n  {\n    \"label\": \"Recycled Nylon (Polyamide)\",\n    \"value\": \"Recycled Nylon (Polyamide)\"\n  },\n  {\n    \"label\": \"Recycled Oil\",\n    \"value\": \"Recycled Oil\"\n  },\n  {\n    \"label\": \"Recycled Paper\",\n    \"value\": \"Recycled Paper\"\n  },\n  {\n    \"label\": \"Recycled PET (Polyethylene Terephthalate) Fibers\",\n    \"value\": \"Recycled PET (Polyethylene Terephthalate) Fibers\"\n  },\n  {\n    \"label\": \"Recycled Plastics\",\n    \"value\": \"Recycled Plastics\"\n  },\n  {\n    \"label\": \"Recycled Polyester\",\n    \"value\": \"Recycled Polyester\"\n  },\n  {\n    \"label\": \"Recycled Rubber\",\n    \"value\": \"Recycled Rubber\"\n  },\n  {\n    \"label\": \"Recycled Wool\",\n    \"value\": \"Recycled Wool\"\n  },\n  {\n    \"label\": \"Refractory Ceramics\",\n    \"value\": \"Refractory Ceramics\"\n  },\n  {\n    \"label\": \"Roofing Materials\",\n    \"value\": \"Roofing Materials\"\n  },\n  {\n    \"label\": \"Rope\",\n    \"value\": \"Rope\"\n  },\n  {\n    \"label\": \"Rubber\",\n    \"value\": \"Rubber\"\n  },\n  {\n    \"label\": \"Sand\",\n    \"value\": \"Sand\"\n  },\n  {\n    \"label\": \"Soil\",\n    \"value\": \"Soil\"\n  },\n  {\n    \"label\": \"Steel\",\n    \"value\": \"Steel\"\n  },\n  {\n    \"label\": \"Stone\",\n    \"value\": \"Stone\"\n  },\n  {\n    \"label\": \"Straw\",\n    \"value\": \"Straw\"\n  },\n  {\n    \"label\": \"Structural Steel\",\n    \"value\": \"Structural Steel\"\n  },\n  {\n    \"label\": \"Tar\",\n    \"value\": \"Tar\"\n  },\n  {\n    \"label\": \"Timber\",\n    \"value\": \"Timber\"\n  },\n  {\n    \"label\": \"Titanium\",\n    \"value\": \"Titanium\"\n  },\n  {\n    \"label\": \"Water\",\n    \"value\": \"Water\"\n  },\n  {\n    \"label\": \"Wire\",\n    \"value\": \"Wire\"\n  },\n  {\n    \"label\": \"Wood\",\n    \"value\": \"Wood\"\n  }\n]",
+          "originalIdentifier": "customField1",
+          "position": 54,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField10": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_sustainable_package",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField10",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Is sustainable packaging used?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField10",
+          "position": 65,
+          "sourceData": true
+        },
+        "customField11": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_reduced_landfill",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField11",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Reduced landfill?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField11",
+          "position": 66,
+          "sourceData": true
+        },
+        "customField12": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "elimination_method",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField12",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Carbon elimination method",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Biomass Carbon Removal and Storage\",\n    \"value\": \"Biomass Carbon Removal and Storage\"\n  },\n  {\n    \"label\": \"Carbon Dioxide\",\n    \"value\": \"Carbon Dioxide\"\n  },\n  {\n    \"label\": \"Cropland Agroforestry\",\n    \"value\": \"Cropland Agroforestry\"\n  },\n  {\n    \"label\": \"Direct Air Capture\",\n    \"value\": \"Direct Air Capture\"\n  },\n  {\n    \"label\": \"Reforestation\",\n    \"value\": \"Reforestation\"\n  },\n  {\n    \"label\": \"Restocking\",\n    \"value\": \"Restocking\"\n  },\n  {\n    \"label\": \"Silvopasture\",\n    \"value\": \"Silvopasture\"\n  },\n  {\n    \"label\": \"Urban Reforestation\",\n    \"value\": \"Urban Reforestation\"\n  },\n  {\n    \"label\": \"Waste To Energy Capture\",\n    \"value\": \"Waste To Energy Capture\"\n  }\n]",
+          "originalIdentifier": "customField12",
+          "position": 67,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField13": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "carbon_emissions_type",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField13",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Carbon emission type",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Australian Carbon Credits Purchased\",\n    \"value\": \"Australian Carbon Credits Purchased\"\n  },\n  {\n    \"label\": \"Carbon Capture and Storage Used\",\n    \"value\": \"Carbon Capture and Storage Used\"\n  },\n  {\n    \"label\": \"Emission Reduction\",\n    \"value\": \"Emission Reduction\"\n  },\n  {\n    \"label\": \"Greenhouse Gas Reduction\",\n    \"value\": \"Greenhouse Gas Reduction\"\n  },\n  {\n    \"label\": \"Improved Energy Efficiency\",\n    \"value\": \"Improved Energy Efficiency\"\n  },\n  {\n    \"label\": \"Improved Manufacturing Processes\",\n    \"value\": \"Improved Manufacturing Processes\"\n  },\n  {\n    \"label\": \"Re-Use of Water\",\n    \"value\": \"Re-Use of Water\"\n  },\n  {\n    \"label\": \"Reforestation\",\n    \"value\": \"Reforestation\"\n  },\n  {\n    \"label\": \"Renewable Diesel or Biodiesel Used\",\n    \"value\": \"Renewable Diesel or Biodiesel Used\"\n  },\n  {\n    \"label\": \"Renewable Energy Used\",\n    \"value\": \"Renewable Energy Used\"\n  },\n  {\n    \"label\": \"Renewable Transport Used (EV, Hybrid, Hydrogen or Other)\",\n    \"value\": \"Renewable Transport Used (EV, Hybrid, Hydrogen or Other)\"\n  },\n  {\n    \"label\": \"Revegetation Implemented\",\n    \"value\": \"Revegetation Implemented\"\n  }\n]",
+          "originalIdentifier": "customField13",
+          "position": 68,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField14": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_carbon_emissions",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField14",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Carbon Emissions?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField14",
+          "position": 69,
+          "sourceData": true
+        },
+        "customField15": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "reduction_method",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Multiline Text Input",
+          "iconAlign": "left",
+          "identifier": "customField15",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "List Carbon Reduction Method",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField15",
+          "position": 70,
+          "sourceData": ""
+        },
+        "customField16": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "reduced_carbon_type",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField16",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Type of reduced carbon",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Certified Emissions Reduction\",\n    \"value\": \"Certified Emissions Reduction\"\n  },\n  {\n    \"label\": \"GECA Certified\",\n    \"value\": \"GECA Certified\"\n  },\n  {\n    \"label\": \"ISO 14064-1 - Carbon Footprint Verification\",\n    \"value\": \"ISO 14064-1 - Carbon Footprint Verification\"\n  },\n  {\n    \"label\": \"NABERS Energy Rating\",\n    \"value\": \"NABERS Energy Rating\"\n  }\n]",
+          "originalIdentifier": "customField16",
+          "position": 71,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField17": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_reduced_carbon",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField17",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Reduced carbon?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField17",
+          "position": 72,
+          "sourceData": true
+        },
+        "customField18": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "renewable_energy_type",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField18",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Renewable energy type used",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"BESS\",\n    \"value\": \"BESS\"\n  },\n  {\n    \"label\": \"Hydro\",\n    \"value\": \"Hydro\"\n  },\n  {\n    \"label\": \"Other\",\n    \"value\": \"Other\"\n  },\n  {\n    \"label\": \"Solar\",\n    \"value\": \"Solar\"\n  },\n  {\n    \"label\": \"Waste to Energy\",\n    \"value\": \"Waste to Energy\"\n  },\n  {\n    \"label\": \"Wind\",\n    \"value\": \"Wind\"\n  },\n  {\n    \"label\": \"Wind Farm\",\n    \"value\": \"Wind Farm\"\n  }\n]",
+          "originalIdentifier": "customField18",
+          "position": 73,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField19": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_renewable_energy",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField19",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Is renewable energy used in manufacturing process?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField19",
+          "position": 74,
+          "sourceData": true
+        },
+        "customField2": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "manufacturing_sme",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": 0,
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField2",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Manufacturing SME",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField2",
+          "position": 55,
+          "sourceData": 0
+        },
+        "customField20": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "au_materials",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField20",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "List type of materials manufactured In Australia",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Bioplastics\",\n    \"value\": \"Bioplastics\"\n  },\n  {\n    \"label\": \"Recycled Concrete\",\n    \"value\": \"Recycled Concrete\"\n  },\n  {\n    \"label\": \"Acrylic (PMMA)\",\n    \"value\": \"Acrylic (PMMA)\"\n  },\n  {\n    \"label\": \"Adhesives and Sealants\",\n    \"value\": \"Adhesives and Sealants\"\n  },\n  {\n    \"label\": \"Aggregate\",\n    \"value\": \"Aggregate\"\n  },\n  {\n    \"label\": \"Aluminum\",\n    \"value\": \"Aluminum\"\n  },\n  {\n    \"label\": \"Asphalt\",\n    \"value\": \"Asphalt\"\n  },\n  {\n    \"label\": \"Bamboo\",\n    \"value\": \"Bamboo\"\n  },\n  {\n    \"label\": \"Bitumen\",\n    \"value\": \"Bitumen\"\n  },\n  {\n    \"label\": \"Blocks\",\n    \"value\": \"Blocks\"\n  },\n  {\n    \"label\": \"Bricks\",\n    \"value\": \"Bricks\"\n  },\n  {\n    \"label\": \"Carbon Fibre\",\n    \"value\": \"Carbon Fibre\"\n  },\n  {\n    \"label\": \"Cast Iron\",\n    \"value\": \"Cast Iron\"\n  },\n  {\n    \"label\": \"Cement\",\n    \"value\": \"Cement\"\n  },\n  {\n    \"label\": \"Chipboard\",\n    \"value\": \"Chipboard\"\n  },\n  {\n    \"label\": \"Clay\",\n    \"value\": \"Clay\"\n  },\n  {\n    \"label\": \"Composite Materials\",\n    \"value\": \"Composite Materials\"\n  },\n  {\n    \"label\": \"Concrete\",\n    \"value\": \"Concrete\"\n  },\n  {\n    \"label\": \"Copper\",\n    \"value\": \"Copper\"\n  },\n  {\n    \"label\": \"Cork\",\n    \"value\": \"Cork\"\n  },\n  {\n    \"label\": \"Cotton\",\n    \"value\": \"Cotton\"\n  },\n  {\n    \"label\": \"Cross-Laminated Timber (CLT)\",\n    \"value\": \"Cross-Laminated Timber (CLT)\"\n  },\n  {\n    \"label\": \"Cyramic\",\n    \"value\": \"Cyramic\"\n  },\n  {\n    \"label\": \"Earth Materials\",\n    \"value\": \"Earth Materials\"\n  },\n  {\n    \"label\": \"Earthenware\",\n    \"value\": \"Earthenware\"\n  },\n  {\n    \"label\": \"Fabric\",\n    \"value\": \"Fabric\"\n  },\n  {\n    \"label\": \"Fiber Reinforced Polymers (FRP)\",\n    \"value\": \"Fiber Reinforced Polymers (FRP)\"\n  },\n  {\n    \"label\": \"Flax Fiber\",\n    \"value\": \"Flax Fiber\"\n  },\n  {\n    \"label\": \"Fly Ash\",\n    \"value\": \"Fly Ash\"\n  },\n  {\n    \"label\": \"Foam\",\n    \"value\": \"Foam\"\n  },\n  {\n    \"label\": \"Glass\",\n    \"value\": \"Glass\"\n  },\n  {\n    \"label\": \"Glass Fiber\",\n    \"value\": \"Glass Fiber\"\n  },\n  {\n    \"label\": \"Granite\",\n    \"value\": \"Granite\"\n  },\n  {\n    \"label\": \"Gravel\",\n    \"value\": \"Gravel\"\n  },\n  {\n    \"label\": \"Green Cement\",\n    \"value\": \"Green Cement\"\n  },\n  {\n    \"label\": \"Gypsum\",\n    \"value\": \"Gypsum\"\n  },\n  {\n    \"label\": \"Gypsum Board\",\n    \"value\": \"Gypsum Board\"\n  },\n  {\n    \"label\": \"Hemp\",\n    \"value\": \"Hemp\"\n  },\n  {\n    \"label\": \"Hempcrete\",\n    \"value\": \"Hempcrete\"\n  },\n  {\n    \"label\": \"Insulation Materials\",\n    \"value\": \"Insulation Materials\"\n  },\n  {\n    \"label\": \"Iron\",\n    \"value\": \"Iron\"\n  },\n  {\n    \"label\": \"Leather\",\n    \"value\": \"Leather\"\n  },\n  {\n    \"label\": \"Lime\",\n    \"value\": \"Lime\"\n  },\n  {\n    \"label\": \"Locally Manufactured Steel\",\n    \"value\": \"Locally Manufactured Steel\"\n  },\n  {\n    \"label\": \"Marble\",\n    \"value\": \"Marble\"\n  },\n  {\n    \"label\": \"Metal\",\n    \"value\": \"Metal\"\n  },\n  {\n    \"label\": \"Mud\",\n    \"value\": \"Mud\"\n  },\n  {\n    \"label\": \"Natural Stone\",\n    \"value\": \"Natural Stone\"\n  },\n  {\n    \"label\": \"Nylon (PA)\",\n    \"value\": \"Nylon (PA)\"\n  },\n  {\n    \"label\": \"Organic Cotton\",\n    \"value\": \"Organic Cotton\"\n  },\n  {\n    \"label\": \"Paint\",\n    \"value\": \"Paint\"\n  },\n  {\n    \"label\": \"Paper\",\n    \"value\": \"Paper\"\n  },\n  {\n    \"label\": \"Plasterboard\",\n    \"value\": \"Plasterboard\"\n  },\n  {\n    \"label\": \"Plastic\",\n    \"value\": \"Plastic\"\n  },\n  {\n    \"label\": \"Polyethylene (PE)\",\n    \"value\": \"Polyethylene (PE)\"\n  },\n  {\n    \"label\": \"Polypropylene (PP)\",\n    \"value\": \"Polypropylene (PP)\"\n  },\n  {\n    \"label\": \"Polyvinyl Chloride (PVC)\",\n    \"value\": \"Polyvinyl Chloride (PVC)\"\n  },\n  {\n    \"label\": \"Porcelain\",\n    \"value\": \"Porcelain\"\n  },\n  {\n    \"label\": \"Recycled and Sustainable Materials\",\n    \"value\": \"Recycled and Sustainable Materials\"\n  },\n  {\n    \"label\": \"Recycled Cardboard\",\n    \"value\": \"Recycled Cardboard\"\n  },\n  {\n    \"label\": \"Recycled Cotton\",\n    \"value\": \"Recycled Cotton\"\n  },\n  {\n    \"label\": \"Recycled Electronics (E-waste)\",\n    \"value\": \"Recycled Electronics (E-waste)\"\n  },\n  {\n    \"label\": \"Recycled Glass\",\n    \"value\": \"Recycled Glass\"\n  },\n  {\n    \"label\": \"Recycled Masonry\",\n    \"value\": \"Recycled Masonry\"\n  },\n  {\n    \"label\": \"Recycled Metals\",\n    \"value\": \"Recycled Metals\"\n  },\n  {\n    \"label\": \"Recycled Nylon (Polyamide)\",\n    \"value\": \"Recycled Nylon (Polyamide)\"\n  },\n  {\n    \"label\": \"Recycled Oil\",\n    \"value\": \"Recycled Oil\"\n  },\n  {\n    \"label\": \"Recycled Paper\",\n    \"value\": \"Recycled Paper\"\n  },\n  {\n    \"label\": \"Recycled PET (Polyethylene Terephthalate) Fibers\",\n    \"value\": \"Recycled PET (Polyethylene Terephthalate) Fibers\"\n  },\n  {\n    \"label\": \"Recycled Plastics\",\n    \"value\": \"Recycled Plastics\"\n  },\n  {\n    \"label\": \"Recycled Polyester\",\n    \"value\": \"Recycled Polyester\"\n  },\n  {\n    \"label\": \"Recycled Rubber\",\n    \"value\": \"Recycled Rubber\"\n  },\n  {\n    \"label\": \"Recycled Wool\",\n    \"value\": \"Recycled Wool\"\n  },\n  {\n    \"label\": \"Refractory Ceramics\",\n    \"value\": \"Refractory Ceramics\"\n  },\n  {\n    \"label\": \"Roofing Materials\",\n    \"value\": \"Roofing Materials\"\n  },\n  {\n    \"label\": \"Rope\",\n    \"value\": \"Rope\"\n  },\n  {\n    \"label\": \"Rubber\",\n    \"value\": \"Rubber\"\n  },\n  {\n    \"label\": \"Sand\",\n    \"value\": \"Sand\"\n  },\n  {\n    \"label\": \"Soil\",\n    \"value\": \"Soil\"\n  },\n  {\n    \"label\": \"Steel\",\n    \"value\": \"Steel\"\n  },\n  {\n    \"label\": \"Stone\",\n    \"value\": \"Stone\"\n  },\n  {\n    \"label\": \"Straw\",\n    \"value\": \"Straw\"\n  },\n  {\n    \"label\": \"Structural Steel\",\n    \"value\": \"Structural Steel\"\n  },\n  {\n    \"label\": \"Tar\",\n    \"value\": \"Tar\"\n  },\n  {\n    \"label\": \"Timber\",\n    \"value\": \"Timber\"\n  },\n  {\n    \"label\": \"Titanium\",\n    \"value\": \"Titanium\"\n  },\n  {\n    \"label\": \"Water\",\n    \"value\": \"Water\"\n  },\n  {\n    \"label\": \"Wire\",\n    \"value\": \"Wire\"\n  },\n  {\n    \"label\": \"Wood\",\n    \"value\": \"Wood\"\n  },\n\t{\n    \"label\": \"Other\",\n    \"value\": \"other\"\n  }\n]",
+          "originalIdentifier": "customField20",
+          "position": 75,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField21": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_sustainable_materials",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField21",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Are sustainable materials used in the product?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField21",
+          "position": 78,
+          "sourceData": true
+        },
+        "customField22": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_circular_economy",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField22",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Circular Economy?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField22",
+          "position": 79,
+          "sourceData": true
+        },
+        "customField23": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "recycling_type",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField23",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Please list the recycled component  (Please tick all applicable to this product)",
+          "labelTextSize": "0.875rem",
+          "options": "[\n{ \"label\": \"Recycled and Sustainable Materials\", \"value\": \"Recycled and Sustainable Materials\" },\n  { \"label\": \"Recycled Cardboard\", \"value\": \"Recycled Cardboard\" },\n  { \"label\": \"Recycled Concrete\", \"value\": \"Recycled Concrete\" },\n  { \"label\": \"Recycled Cotton\", \"value\": \"Recycled Cotton\" },\n  { \"label\": \"Recycled Electronics (E-waste)\", \"value\": \"Recycled Electronics (E-waste)\" },\n  { \"label\": \"Recycled Glass\", \"value\": \"Recycled Glass\" },\n  { \"label\": \"Recycled Masonry\", \"value\": \"Recycled Masonry\" },\n  { \"label\": \"Recycled Metals\", \"value\": \"Recycled Metals\" },\n  { \"label\": \"Recycled Nylon (Polyamide)\", \"value\": \"Recycled Nylon (Polyamide)\" },\n  { \"label\": \"Recycled Oil\", \"value\": \"Recycled Oil\" },\n  { \"label\": \"Recycled Paper\", \"value\": \"Recycled Paper\" },\n  { \"label\": \"Recycled PET (Polyethylene Terephthalate) Fibers\", \"value\": \"Recycled PET (Polyethylene Terephthalate) Fibers\" },\n  { \"label\": \"Recycled Plastics\", \"value\": \"Recycled Plastics\" },\n  { \"label\": \"Recycled Polyester\", \"value\": \"Recycled Polyester\" },\n  { \"label\": \"Recycled Rubber\", \"value\": \"Recycled Rubber\" },\n  { \"label\": \"Recycled Wool\", \"value\": \"Recycled Wool\" },\n  { \"label\": \"Other\", \"value\": \"other\" }\n]",
+          "originalIdentifier": "customField23",
+          "position": 82,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField24": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "component_recycled",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "customField24",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Which product component is recycled?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField24",
+          "position": 81,
+          "sourceData": ""
+        },
+        "customField25": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_recycled",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField25",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Does the product contain recycled material?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField25",
+          "position": 80,
+          "sourceData": true
+        },
+        "customField27": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_iso_accreditation",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField27",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Is the product ISO Certified?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField27",
+          "position": 34,
+          "sourceData": true
+        },
+        "customField28": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "social_certification",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField28",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Social Certification",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Supply Nation Registered\",\n    \"value\": \"Supply Nation Registered\"\n  },\n  {\n    \"label\": \"Supply Nation Certified\",\n    \"value\": \"Supply Nation Certified\"\n  },\n  {\n    \"label\": \"Social Trader Certified\",\n    \"value\": \"Social Trader Certified\"\n  },\n  {\n    \"label\": \"Kinaway Certified\",\n    \"value\": \"Kinaway Certified\"\n  },\n  {\n    \"label\": \"Kinaway Registed\",\n    \"value\": \"Kinaway Registed\"\n  },\n  {\n    \"label\": \"Global Green Tag Certified\",\n    \"value\": \"Global Green Tag Certified\"\n  },\n  {\n    \"label\": \"International\",\n    \"value\": \"International\"\n  },\n  {\n    \"label\": \"Not Certified\",\n    \"value\": \"Not Certified\"\n  },\n  {\n    \"label\": \"WASEC\",\n    \"value\": \"WASEC\"\n  },\n  {\n    \"label\": \"SENVIC\",\n    \"value\": \"SENVIC\"\n  },\n  {\n    \"label\": \"SENTAS\",\n    \"value\": \"SENTAS\"\n  },\n  {\n    \"label\": \"Impact North\",\n    \"value\": \"Impact North\"\n  },\n  {\n    \"label\": \"SASEC\",\n    \"value\": \"SASEC\"\n  },\n  {\n    \"label\": \"QSEC\",\n    \"value\": \"QSEC\"\n  },\n  {\n    \"label\": \"SECNA\",\n    \"value\": \"SECNA\"\n  },\n  {\n    \"label\": \"Not Applicable - I Am A Commercial Business\",\n    \"value\": \"Not Applicable - I Am A Commercial Business\"\n  },\n  {\n    \"label\": \"Social Traders\",\n    \"value\": \"Social Traders\"\n  }\n]",
+          "originalIdentifier": "customField28",
+          "position": 33,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField29": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "description",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Multiline Text Input",
+          "iconAlign": "left",
+          "identifier": "customField29",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Product Description",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField29",
+          "position": 5,
+          "sourceData": ""
+        },
+        "customField3": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "manufacturing_owner",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField3",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Business Ownership Country",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Australia\",\n    \"value\": \"Australia\"\n  },\n  {\n    \"label\": \"New Zealand\",\n    \"value\": \"New Zealand\"\n  }\n]",
+          "originalIdentifier": "customField3",
+          "position": 56,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField30": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "org_support",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Multiline Text Input",
+          "iconAlign": "left",
+          "identifier": "customField30",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Please List Organizations You Support",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField30",
+          "position": 32,
+          "sourceData": ""
+        },
+        "customField31": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "impact_list",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "customField31",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "List Your Community Impact",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField31",
+          "position": 31,
+          "sourceData": ""
+        },
+        "customField32": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "impact_type",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField32",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Impact Type",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Community Engagement and Support\",\n    \"value\": \"Community Engagement and Support\"\n  },\n  {\n    \"label\": \"Community Investment\",\n    \"value\": \"Community Investment\"\n  },\n  {\n    \"label\": \"Community Programs\",\n    \"value\": \"Community Programs\"\n  },\n  {\n    \"label\": \"Disability\",\n    \"value\": \"Disability\"\n  },\n  {\n    \"label\": \"Employment Opportunities\",\n    \"value\": \"Employment Opportunities\"\n  },\n  {\n    \"label\": \"Environment\",\n    \"value\": \"Environment\"\n  },\n  {\n    \"label\": \"Environmental Sustainability\",\n    \"value\": \"Environmental Sustainability\"\n  },\n  {\n    \"label\": \"Ethical Supply Chains\",\n    \"value\": \"Ethical Supply Chains\"\n  },\n  {\n    \"label\": \"Fair Trade\",\n    \"value\": \"Fair Trade\"\n  },\n  {\n    \"label\": \"Health and Wellbeing\",\n    \"value\": \"Health and Wellbeing\"\n  },\n  {\n    \"label\": \"Indigenous\",\n    \"value\": \"Indigenous\"\n  },\n  {\n    \"label\": \"Mental Health\",\n    \"value\": \"Mental Health\"\n  },\n  {\n    \"label\": \"Poverty\",\n    \"value\": \"Poverty\"\n  },\n  {\n    \"label\": \"Skills Development & Training\",\n    \"value\": \"Skills Development & Training\"\n  },\n  {\n    \"label\": \"Social Entrepreneurship\",\n    \"value\": \"Social Entrepreneurship\"\n  },\n  {\n    \"label\": \"Training Programs\",\n    \"value\": \"Training Programs\"\n  },\n  {\n    \"label\": \"Youth\",\n    \"value\": \"Youth\"\n  }\n]",
+          "originalIdentifier": "customField32",
+          "position": 30,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField33": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "sbs_types",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField33",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Social Benefit Suppliers used in supply chain",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Disability Business\",\n    \"value\": \"disability_business\"\n  },\n  {\n    \"label\": \"Environmental\",\n    \"value\": \"environmental\"\n  },\n  {\n    \"label\": \"Indigenous Business\",\n    \"value\": \"indigenous_business\"\n  },\n\t{\n    \"label\": \"Social Enterprise\",\n    \"value\": \"social_enterprise\"\n  }\n]",
+          "originalIdentifier": "customField33",
+          "position": 24,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField34": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "applicable_state",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField34",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Delivery State",
+          "labelTextSize": "0.875rem",
+          "options": "[\n    { \"label\": \"Australian Capital Territory\", \"value\": \"ACT\" },\n    { \"label\": \"New South Wales\", \"value\": \"NSW\" },\n    { \"label\": \"Northern Territory\", \"value\": \"NT\" },\n    { \"label\": \"Queensland\", \"value\": \"QLD\" },\n    { \"label\": \"South Australia\", \"value\": \"SA\" },\n    { \"label\": \"Tasmania\", \"value\": \"TAS\" },\n    { \"label\": \"Victoria\", \"value\": \"VIC\" },\n    { \"label\": \"Western Australia\", \"value\": \"WA\" }\n]",
+          "originalIdentifier": "customField34",
+          "position": 19,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField35": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "pre_order",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": true,
+          "dataType": "string",
+          "dateFormat": "LL",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (null))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "customField35",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Date product can be pre-ordered from",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "customField35",
+          "position": 18,
+          "shortcuts": false,
+          "sourceData": "",
+          "timePrecision": "None"
+        },
+        "customField36": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "available_from",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": true,
+          "dataType": "string",
+          "dateFormat": "LL",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (null))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "customField36",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Date product is available from",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "customField36",
+          "position": 17,
+          "shortcuts": false,
+          "sourceData": "",
+          "timePrecision": "None"
+        },
+        "customField37": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "availability",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "true",
+          "fieldType": "Radio Group",
+          "identifier": "customField37",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Is product currently available?",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": \"true\"\n  },\n  {\n    \"label\": \"No\",\n    \"value\": \"false\"\n  },\n  {\n    \"label\": \"Pre-Order\",\n    \"value\": \"preorder\"\n  },\n\t{\n    \"label\": \"Other\",\n    \"value\": \"other\"\n  }\n]",
+          "originalIdentifier": "customField37",
+          "position": 13,
+          "sourceData": ""
+        },
+        "customField38": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "units_per_quantity",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": 0,
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField38",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Number of units per quantity",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField38",
+          "position": 12,
+          "sourceData": 0
+        },
+        "customField39": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "quantity_type",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField39",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Unit for product quantity",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Acre (ac)\",\n    \"value\": \"Acre (ac)\"\n  },\n  {\n    \"label\": \"Box\",\n    \"value\": \"Box\"\n  },\n  {\n    \"label\": \"Carton\",\n    \"value\": \"Carton\"\n  },\n  {\n    \"label\": \"Centimeter (cm)\",\n    \"value\": \"Centimeter (cm)\"\n  },\n  {\n    \"label\": \"Cubic meter (m³)\",\n    \"value\": \"Cubic meter (m³)\"\n  },\n  {\n    \"label\": \"Fixed Price\",\n    \"value\": \"Fixed Price\"\n  },\n  {\n    \"label\": \"Foot (ft)\",\n    \"value\": \"Foot (ft)\"\n  },\n  {\n    \"label\": \"Gallon (gal)\",\n    \"value\": \"Gallon (gal)\"\n  },\n  {\n    \"label\": \"Gram (g)\",\n    \"value\": \"Gram (g)\"\n  },\n  {\n    \"label\": \"Hectare (ha)\",\n    \"value\": \"Hectare (ha)\"\n  },\n  {\n    \"label\": \"Inch (in)\",\n    \"value\": \"Inch (in)\"\n  },\n  {\n    \"label\": \"Joules (J)\",\n    \"value\": \"Joules (J)\"\n  },\n  {\n    \"label\": \"Kelvin (K)\",\n    \"value\": \"Kelvin (K)\"\n  },\n  {\n    \"label\": \"Kilogram (kg)\",\n    \"value\": \"Kilogram (kg)\"\n  },\n  {\n    \"label\": \"Kilometer (km)\",\n    \"value\": \"Kilometer (km)\"\n  },\n  {\n    \"label\": \"Kilowatt-hours (kWh)\",\n    \"value\": \"Kilowatt-hours (kWh)\"\n  },\n  {\n    \"label\": \"Kilowatts (kW)\",\n    \"value\": \"Kilowatts (kW)\"\n  },\n  {\n    \"label\": \"Liter (L)\",\n    \"value\": \"Liter (L)\"\n  },\n  {\n    \"label\": \"Megapascal (MPa)\",\n    \"value\": \"Megapascal (MPa)\"\n  },\n  {\n    \"label\": \"Meter (m)\",\n    \"value\": \"Meter (m)\"\n  },\n  {\n    \"label\": \"Mile (mi)\",\n    \"value\": \"Mile (mi)\"\n  },\n  {\n    \"label\": \"Milliliter (mL)\",\n    \"value\": \"Milliliter (mL)\"\n  },\n  {\n    \"label\": \"Millimeter (mm)\",\n    \"value\": \"Millimeter (mm)\"\n  },\n  {\n    \"label\": \"Newton (N)\",\n    \"value\": \"Newton (N)\"\n  },\n  {\n    \"label\": \"Ounce (oz)\",\n    \"value\": \"Ounce (oz)\"\n  },\n  {\n    \"label\": \"Pallet\",\n    \"value\": \"Pallet\"\n  },\n  {\n    \"label\": \"Pascal (Pa)\",\n    \"value\": \"Pascal (Pa)\"\n  },\n  {\n    \"label\": \"Price Per time\",\n    \"value\": \"Price Per time\"\n  },\n  {\n    \"label\": \"Quantity Type\",\n    \"value\": \"Quantity Type\"\n  },\n  {\n    \"label\": \"Square kilometer (km²)\",\n    \"value\": \"Square kilometer (km²)\"\n  },\n  {\n    \"label\": \"Square meter (m²)\",\n    \"value\": \"Square meter (m²)\"\n  },\n  {\n    \"label\": \"Stack\",\n    \"value\": \"Stack\"\n  },\n  {\n    \"label\": \"Tonne\",\n    \"value\": \"Tonne\"\n  },\n  {\n    \"label\": \"Tonne (Metric)\",\n    \"value\": \"Tonne (Metric)\"\n  },\n  {\n    \"label\": \"Watts (W)\",\n    \"value\": \"Watts (W)\"\n  },\n  {\n    \"label\": \"Yard (yd)\",\n    \"value\": \"Yard (yd)\"\n  }\n]",
+          "originalIdentifier": "customField39",
+          "position": 11,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField4": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_overseas_manufacturing",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField4",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Does the product contain overseas manufacturing?",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  },\n  {\n    \"label\": \"Other\",\n    \"value\": \"other\"\n  }\n]",
+          "originalIdentifier": "customField4",
+          "position": 57,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField40": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_gst_included",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField40",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Is GST included in product price?",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Yes\",\n    \"value\": true\n  },\n  {\n    \"label\": \"No\",\n    \"value\": false\n  },\n  {\n    \"label\": \"Other\",\n    \"value\": \"other\"\n  }\n]",
+          "originalIdentifier": "customField40",
+          "position": 8,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField41": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "currency",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{\n    \"label\": \"AUD\",\n    \"value\": \"AUD\"\n  }",
+          "fieldType": "Select",
+          "identifier": "customField41",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Currency",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"AUD\",\n    \"value\": \"AUD\"\n  },\n  {\n    \"label\": \"NZD\",\n    \"value\": \"NZD\"\n  }\n]",
+          "originalIdentifier": "customField41",
+          "position": 10,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField43": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "sub_category",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField43",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": true,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Product Sub-category",
+          "labelTextSize": "0.875rem",
+          "options": "{{get_categories.data.find(c => c.category == insert_form.formData.category).sub_categories.split(',').map(sc => ({ label: sc.trim(), value: sc.trim()}))}}",
+          "originalIdentifier": "customField43",
+          "position": 4,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField44": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "packaging_type",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField44",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Packaging Type",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Arborist\",\n    \"value\": \"Arborist\"\n  },\n  {\n    \"label\": \"Asphalt and Kerbing\",\n    \"value\": \"Asphalt and Kerbing\"\n  },\n  {\n    \"label\": \"Balustrades and Handrails\",\n    \"value\": \"Balustrades and Handrails\"\n  },\n  {\n    \"label\": \"Blinds & Screens\",\n    \"value\": \"Blinds & Screens\"\n  },\n  {\n    \"label\": \"Blinds and Curtains\",\n    \"value\": \"Blinds and Curtains\"\n  },\n  {\n    \"label\": \"Brick and Blockwork\",\n    \"value\": \"Brick and Blockwork\"\n  },\n  {\n    \"label\": \"Brickwork and Blockwork\",\n    \"value\": \"Brickwork and Blockwork\"\n  },\n  {\n    \"label\": \"Builders Clean and Final Clean\",\n    \"value\": \"Builders Clean and Final Clean\"\n  },\n  {\n    \"label\": \"Cabling\",\n    \"value\": \"Cabling\"\n  },\n  {\n    \"label\": \"Carpet\",\n    \"value\": \"Carpet\"\n  },\n  {\n    \"label\": \"Ceilings, Partitions and Linings\",\n    \"value\": \"Ceilings, Partitions and Linings\"\n  },\n  {\n    \"label\": \"Civil Works\",\n    \"value\": \"Civil Works\"\n  },\n  {\n    \"label\": \"Cladding\",\n    \"value\": \"Cladding\"\n  },\n  {\n    \"label\": \"Cleaning\",\n    \"value\": \"Cleaning\"\n  },\n  {\n    \"label\": \"Construction Safety\",\n    \"value\": \"Construction Safety\"\n  },\n  {\n    \"label\": \"Construction Work Package\",\n    \"value\": \"Construction Work Package\"\n  },\n  {\n    \"label\": \"Decking\",\n    \"value\": \"Decking\"\n  },\n  {\n    \"label\": \"Door Hardware\",\n    \"value\": \"Door Hardware\"\n  },\n  {\n    \"label\": \"Doors\",\n    \"value\": \"Doors\"\n  },\n  {\n    \"label\": \"Doors, Frames and Fire Doors\",\n    \"value\": \"Doors, Frames and Fire Doors\"\n  },\n  {\n    \"label\": \"Electrical\",\n    \"value\": \"Electrical\"\n  },\n  {\n    \"label\": \"Electrical Services & Lighting\",\n    \"value\": \"Electrical Services & Lighting\"\n  },\n  {\n    \"label\": \"Electrical Services - Site and/or Substation\",\n    \"value\": \"Electrical Services - Site and/or Substation\"\n  },\n  {\n    \"label\": \"Electrical Test & Tagging\",\n    \"value\": \"Electrical Test & Tagging\"\n  },\n  {\n    \"label\": \"Engineering Work Package\",\n    \"value\": \"Engineering Work Package\"\n  },\n  {\n    \"label\": \"External Finishes and Cladding\",\n    \"value\": \"External Finishes and Cladding\"\n  },\n  {\n    \"label\": \"Façade Aluminium Panelling\",\n    \"value\": \"Façade Aluminium Panelling\"\n  },\n  {\n    \"label\": \"Facades\",\n    \"value\": \"Facades\"\n  },\n  {\n    \"label\": \"Fire Services (Dry)\",\n    \"value\": \"Fire Services (Dry)\"\n  },\n  {\n    \"label\": \"Fire Services (Wet)\",\n    \"value\": \"Fire Services (Wet)\"\n  },\n  {\n    \"label\": \"First Aid, Fire Extinguishers & Spill Kits\",\n    \"value\": \"First Aid, Fire Extinguishers & Spill Kits\"\n  },\n  {\n    \"label\": \"Fixtures Fittings and Equipment\",\n    \"value\": \"Fixtures Fittings and Equipment\"\n  },\n  {\n    \"label\": \"Floor Finishes Vinyl and Carpet\",\n    \"value\": \"Floor Finishes Vinyl and Carpet\"\n  },\n  {\n    \"label\": \"Floor Substrate - Yellow tongue and Fire Rated Board\",\n    \"value\": \"Floor Substrate - Yellow tongue and Fire Rated Board\"\n  },\n  {\n    \"label\": \"Flooring\",\n    \"value\": \"Flooring\"\n  },\n  {\n    \"label\": \"Furniture, Fittings and Equipment\",\n    \"value\": \"Furniture, Fittings and Equipment\"\n  },\n  {\n    \"label\": \"Generator Hire\",\n    \"value\": \"Generator Hire\"\n  },\n  {\n    \"label\": \"Hydraulic Services\",\n    \"value\": \"Hydraulic Services\"\n  },\n  {\n    \"label\": \"Installation Work Package\",\n    \"value\": \"Installation Work Package\"\n  },\n  {\n    \"label\": \"Internal\",\n    \"value\": \"Internal\"\n  },\n  {\n    \"label\": \"Irrigation\",\n    \"value\": \"Irrigation\"\n  },\n  {\n    \"label\": \"Joinery\",\n    \"value\": \"Joinery\"\n  },\n  {\n    \"label\": \"Landscaping Hard\",\n    \"value\": \"Landscaping Hard\"\n  },\n  {\n    \"label\": \"Landscaping Soft\",\n    \"value\": \"Landscaping Soft\"\n  },\n  {\n    \"label\": \"Masonry\",\n    \"value\": \"Masonry\"\n  },\n  {\n    \"label\": \"Mechanical Services\",\n    \"value\": \"Mechanical Services\"\n  },\n  {\n    \"label\": \"Metalwork\",\n    \"value\": \"Metalwork\"\n  },\n  {\n    \"label\": \"Overhead Cranes\",\n    \"value\": \"Overhead Cranes\"\n  },\n  {\n    \"label\": \"Painting\",\n    \"value\": \"Painting\"\n  },\n  {\n    \"label\": \"Plumbing\",\n    \"value\": \"Plumbing\"\n  },\n  {\n    \"label\": \"PPE\",\n    \"value\": \"PPE\"\n  },\n  {\n    \"label\": \"PPE, Signage and Barriers\",\n    \"value\": \"PPE, Signage and Barriers\"\n  },\n  {\n    \"label\": \"Roadworks\",\n    \"value\": \"Roadworks\"\n  },\n  {\n    \"label\": \"Roofing\",\n    \"value\": \"Roofing\"\n  },\n  {\n    \"label\": \"Roofing and Roof Plumbing\",\n    \"value\": \"Roofing and Roof Plumbing\"\n  },\n  {\n    \"label\": \"Safety Consumables\",\n    \"value\": \"Safety Consumables\"\n  },\n  {\n    \"label\": \"Scaffold and Props\",\n    \"value\": \"Scaffold and Props\"\n  },\n  {\n    \"label\": \"Scaffolding\",\n    \"value\": \"Scaffolding\"\n  },\n  {\n    \"label\": \"Security\",\n    \"value\": \"Security\"\n  },\n  {\n    \"label\": \"Security Services\",\n    \"value\": \"Security Services\"\n  },\n  {\n    \"label\": \"Shower Screens and Mirrors\",\n    \"value\": \"Shower Screens and Mirrors\"\n  },\n  {\n    \"label\": \"Signage\",\n    \"value\": \"Signage\"\n  },\n  {\n    \"label\": \"Signalling\",\n    \"value\": \"Signalling\"\n  },\n  {\n    \"label\": \"Site Cranage (Wet Hire)\",\n    \"value\": \"Site Cranage (Wet Hire)\"\n  },\n  {\n    \"label\": \"Site Equipment\",\n    \"value\": \"Site Equipment\"\n  },\n  {\n    \"label\": \"Site Setout & Land Survey\",\n    \"value\": \"Site Setout & Land Survey\"\n  },\n  {\n    \"label\": \"Structural Steel\",\n    \"value\": \"Structural Steel\"\n  },\n  {\n    \"label\": \"Structure - Form, Reo, Pour\",\n    \"value\": \"Structure - Form, Reo, Pour\"\n  },\n  {\n    \"label\": \"Surefoot Supply and Install\",\n    \"value\": \"Surefoot Supply and Install\"\n  },\n  {\n    \"label\": \"Temporary Fence\",\n    \"value\": \"Temporary Fence\"\n  },\n  {\n    \"label\": \"Test Work Package\",\n    \"value\": \"Test Work Package\"\n  },\n  {\n    \"label\": \"Tiling\",\n    \"value\": \"Tiling\"\n  },\n  {\n    \"label\": \"Toilet Partitions\",\n    \"value\": \"Toilet Partitions\"\n  },\n  {\n    \"label\": \"Traffic Management\",\n    \"value\": \"Traffic Management\"\n  },\n  {\n    \"label\": \"Transport\",\n    \"value\": \"Transport\"\n  },\n  {\n    \"label\": \"Turnstiles\",\n    \"value\": \"Turnstiles\"\n  },\n  {\n    \"label\": \"Wall & Floor Tiling\",\n    \"value\": \"Wall & Floor Tiling\"\n  },\n  {\n    \"label\": \"Wall Finishes\",\n    \"value\": \"Wall Finishes\"\n  },\n  {\n    \"label\": \"Waterproofing\",\n    \"value\": \"Waterproofing\"\n  },\n  {\n    \"label\": \"Waterproofing Membranes\",\n    \"value\": \"Waterproofing Membranes\"\n  },\n  {\n    \"label\": \"Windows and Glazing\",\n    \"value\": \"Windows and Glazing\"\n  },\n  {\n    \"label\": \"Windows, Shrouds and Glazing\",\n    \"value\": \"Windows, Shrouds and Glazing\"\n  },\n  {\n    \"label\": \"Workshop & Tool Costs\",\n    \"value\": \"Workshop & Tool Costs\"\n  }\n]",
+          "originalIdentifier": "customField44",
+          "position": 7,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField45": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "industry_sector",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField45",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Industry sector",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"Agriculture\",\n    \"value\": \"Agriculture\"\n  },\n  {\n    \"label\": \"Automotive, Transport and Rail\",\n    \"value\": \"Automotive, Transport and Rail\"\n  },\n  {\n    \"label\": \"Building and Construction\",\n    \"value\": \"Building and Construction\"\n  },\n  {\n    \"label\": \"Chemical Industries\",\n    \"value\": \"Chemical Industries\"\n  },\n  {\n    \"label\": \"Clean Energy\",\n    \"value\": \"Clean Energy\"\n  },\n  {\n    \"label\": \"Cleaning and Sanitation\",\n    \"value\": \"Cleaning and Sanitation\"\n  },\n  {\n    \"label\": \"Commerce\",\n    \"value\": \"Commerce\"\n  },\n  {\n    \"label\": \"Communications\",\n    \"value\": \"Communications\"\n  },\n  {\n    \"label\": \"Corrections\",\n    \"value\": \"Corrections\"\n  },\n  {\n    \"label\": \"Defence\",\n    \"value\": \"Defence\"\n  },\n  {\n    \"label\": \"Education\",\n    \"value\": \"Education\"\n  },\n  {\n    \"label\": \"Energy\",\n    \"value\": \"Energy\"\n  },\n  {\n    \"label\": \"Engineering\",\n    \"value\": \"Engineering\"\n  },\n  {\n    \"label\": \"Financial\",\n    \"value\": \"Financial\"\n  },\n  {\n    \"label\": \"Financial Services\",\n    \"value\": \"Financial Services\"\n  },\n  {\n    \"label\": \"Food and Beverage\",\n    \"value\": \"Food and Beverage\"\n  },\n  {\n    \"label\": \"Forestry\",\n    \"value\": \"Forestry\"\n  },\n  {\n    \"label\": \"Gas\",\n    \"value\": \"Gas\"\n  },\n  {\n    \"label\": \"Government\",\n    \"value\": \"Government\"\n  },\n  {\n    \"label\": \"Healthcare\",\n    \"value\": \"Healthcare\"\n  },\n  {\n    \"label\": \"Hydrocarbon\",\n    \"value\": \"Hydrocarbon\"\n  },\n  {\n    \"label\": \"IT\",\n    \"value\": \"IT\"\n  },\n  {\n    \"label\": \"Land\",\n    \"value\": \"Land\"\n  },\n  {\n    \"label\": \"Manufacturing\",\n    \"value\": \"Manufacturing\"\n  },\n  {\n    \"label\": \"Marine\",\n    \"value\": \"Marine\"\n  },\n  {\n    \"label\": \"Mechanical\",\n    \"value\": \"Mechanical\"\n  },\n  {\n    \"label\": \"Media\",\n    \"value\": \"Media\"\n  },\n  {\n    \"label\": \"Metal Production\",\n    \"value\": \"Metal Production\"\n  },\n  {\n    \"label\": \"Mining\",\n    \"value\": \"Mining\"\n  },\n  {\n    \"label\": \"Oil\",\n    \"value\": \"Oil\"\n  },\n  {\n    \"label\": \"Oil, Gas & Energy\",\n    \"value\": \"Oil, Gas & Energy\"\n  },\n  {\n    \"label\": \"Other Services\",\n    \"value\": \"Other Services\"\n  },\n  {\n    \"label\": \"Postal and Telecommunications Services\",\n    \"value\": \"Postal and Telecommunications Services\"\n  },\n  {\n    \"label\": \"PPP\",\n    \"value\": \"PPP\"\n  },\n  {\n    \"label\": \"Public Service\",\n    \"value\": \"Public Service\"\n  },\n  {\n    \"label\": \"Rail\",\n    \"value\": \"Rail\"\n  },\n  {\n    \"label\": \"Retail & Wholesale\",\n    \"value\": \"Retail & Wholesale\"\n  },\n  {\n    \"label\": \"Road\",\n    \"value\": \"Road\"\n  },\n  {\n    \"label\": \"Shipping\",\n    \"value\": \"Shipping\"\n  },\n  {\n    \"label\": \"Social Housing\",\n    \"value\": \"Social Housing\"\n  },\n  {\n    \"label\": \"Space\",\n    \"value\": \"Space\"\n  },\n  {\n    \"label\": \"Technology\",\n    \"value\": \"Technology\"\n  },\n  {\n    \"label\": \"Textiles\",\n    \"value\": \"Textiles\"\n  },\n  {\n    \"label\": \"Tourism\",\n    \"value\": \"Tourism\"\n  },\n  {\n    \"label\": \"Trade\",\n    \"value\": \"Trade\"\n  },\n  {\n    \"label\": \"Transport & Logistics\",\n    \"value\": \"Transport & Logistics\"\n  },\n  {\n    \"label\": \"Water\",\n    \"value\": \"Water\"\n  }\n]",
+          "originalIdentifier": "customField45",
+          "position": 6,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField46": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "category",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "customField46",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": true,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Product Category",
+          "labelTextSize": "0.875rem",
+          "onOptionChange": "",
+          "options": "{{get_categories.data.map(c => ({ label: c.category, value: c.category}))}}",
+          "originalIdentifier": "customField46",
+          "position": 3,
+          "serverSideFiltering": false,
+          "sourceData": ""
+        },
+        "customField47": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "name",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "customField47",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Product name",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField47",
+          "position": 2,
+          "sourceData": ""
+        },
+        "customField48": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "gst_included_other",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "customField48",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.is_gst_included == \"other\"))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.is_gst_included == \"other\"))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Other GST Included",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField48",
+          "position": 9,
+          "sourceData": ""
+        },
+        "customField49": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "availability_other",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "customField49",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.availability == 'other'))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.availability == 'other'))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Other Availability",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField49",
+          "position": 14,
+          "sourceData": ""
+        },
+        "customField5": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "manufacturing_location",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField5",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Manufacturing location",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"National\",\n    \"value\": \"National\"\n  },\n  {\n    \"label\": \"All Queensland\",\n    \"value\": \"All Queensland\"\n  },\n  {\n    \"label\": \"All Northern Territory\",\n    \"value\": \"All Northern Territory\"\n  },\n  {\n    \"label\": \"All NSW\",\n    \"value\": \"All NSW\"\n  },\n  {\n    \"label\": \"All Tasmania\",\n    \"value\": \"All Tasmania\"\n  },\n  {\n    \"label\": \"All Victoria\",\n    \"value\": \"All Victoria\"\n  },\n  {\n    \"label\": \"All South Australia\",\n    \"value\": \"All South Australia\"\n  },\n  {\n    \"label\": \"All Western Australia\",\n    \"value\": \"All Western Australia\"\n  },\n  {\n    \"label\": \"Capital Region NSW\",\n    \"value\": \"Capital Region NSW\"\n  },\n  {\n    \"label\": \"Central Coast NSW\",\n    \"value\": \"Central Coast NSW\"\n  },\n  {\n    \"label\": \"Central West NSW\",\n    \"value\": \"Central West NSW\"\n  },\n  {\n    \"label\": \"Coffs Harbour - Grafton\",\n    \"value\": \"Coffs Harbour - Grafton\"\n  },\n  {\n    \"label\": \"Far West and Orana\",\n    \"value\": \"Far West and Orana\"\n  },\n  {\n    \"label\": \"Hunter Valley exc Newcastle\",\n    \"value\": \"Hunter Valley exc Newcastle\"\n  },\n  {\n    \"label\": \"Illawarra\",\n    \"value\": \"Illawarra\"\n  },\n  {\n    \"label\": \"Mid North Coast NSW\",\n    \"value\": \"Mid North Coast NSW\"\n  },\n  {\n    \"label\": \"Murray NSW\",\n    \"value\": \"Murray NSW\"\n  },\n  {\n    \"label\": \"New England and North West\",\n    \"value\": \"New England and North West\"\n  },\n  {\n    \"label\": \"Newcastle and Lake Macquarie\",\n    \"value\": \"Newcastle and Lake Macquarie\"\n  },\n  {\n    \"label\": \"Richmond - Tweed\",\n    \"value\": \"Richmond - Tweed\"\n  },\n  {\n    \"label\": \"Riverina NSW\",\n    \"value\": \"Riverina NSW\"\n  },\n  {\n    \"label\": \"Southern Highlands and Shoalhaven\",\n    \"value\": \"Southern Highlands and Shoalhaven\"\n  },\n  {\n    \"label\": \"Sydney - Baulkham Hills and Hawkesbury\",\n    \"value\": \"Sydney - Baulkham Hills and Hawkesbury\"\n  },\n  {\n    \"label\": \"Sydney - Blacktown\",\n    \"value\": \"Sydney - Blacktown\"\n  },\n  {\n    \"label\": \"Sydney - City and Inner South\",\n    \"value\": \"Sydney - City and Inner South\"\n  },\n  {\n    \"label\": \"Sydney - Eastern Suburbs\",\n    \"value\": \"Sydney - Eastern Suburbs\"\n  },\n  {\n    \"label\": \"Sydney - Inner South West\",\n    \"value\": \"Sydney - Inner South West\"\n  },\n  {\n    \"label\": \"Sydney - Inner West\",\n    \"value\": \"Sydney - Inner West\"\n  },\n  {\n    \"label\": \"Sydney - North Sydney and Hornsby\",\n    \"value\": \"Sydney - North Sydney and Hornsby\"\n  },\n  {\n    \"label\": \"Sydney - Northern Beaches\",\n    \"value\": \"Sydney - Northern Beaches\"\n  },\n  {\n    \"label\": \"Sydney - Outer South West\",\n    \"value\": \"Sydney - Outer South West\"\n  },\n  {\n    \"label\": \"Sydney - Outer West and Blue Mountains\",\n    \"value\": \"Sydney - Outer West and Blue Mountains\"\n  },\n  {\n    \"label\": \"Sydney - Parramatta\",\n    \"value\": \"Sydney - Parramatta\"\n  },\n  {\n    \"label\": \"Sydney - Ryde\",\n    \"value\": \"Sydney - Ryde\"\n  },\n  {\n    \"label\": \"Sydney - South West\",\n    \"value\": \"Sydney - South West\"\n  },\n  {\n    \"label\": \"Sydney - Sutherland\",\n    \"value\": \"Sydney - Sutherland\"\n  },\n  {\n    \"label\": \"Ballarat\",\n    \"value\": \"Ballarat\"\n  },\n  {\n    \"label\": \"Bendigo\",\n    \"value\": \"Bendigo\"\n  },\n  {\n    \"label\": \"Geelong\",\n    \"value\": \"Geelong\"\n  },\n  {\n    \"label\": \"Hume\",\n    \"value\": \"Hume\"\n  },\n  {\n    \"label\": \"Latrobe - Gippsland\",\n    \"value\": \"Latrobe - Gippsland\"\n  },\n  {\n    \"label\": \"Melbourne - Inner\",\n    \"value\": \"Melbourne - Inner\"\n  },\n  {\n    \"label\": \"Melbourne - Inner East\",\n    \"value\": \"Melbourne - Inner East\"\n  },\n  {\n    \"label\": \"Melbourne - Inner South\",\n    \"value\": \"Melbourne - Inner South\"\n  },\n  {\n    \"label\": \"Melbourne - North East\",\n    \"value\": \"Melbourne - North East\"\n  },\n  {\n    \"label\": \"Melbourne - North West\",\n    \"value\": \"Melbourne - North West\"\n  },\n  {\n    \"label\": \"Melbourne - Outer East\",\n    \"value\": \"Melbourne - Outer East\"\n  },\n  {\n    \"label\": \"Melbourne - South East\",\n    \"value\": \"Melbourne - South East\"\n  },\n  {\n    \"label\": \"Melbourne - West\",\n    \"value\": \"Melbourne - West\"\n  },\n  {\n    \"label\": \"Mornington Peninsula\",\n    \"value\": \"Mornington Peninsula\"\n  },\n  {\n    \"label\": \"North West\",\n    \"value\": \"North West\"\n  },\n  {\n    \"label\": \"Shepparton\",\n    \"value\": \"Shepparton\"\n  },\n  {\n    \"label\": \"Warrnambool and South West\",\n    \"value\": \"Warrnambool and South West\"\n  },\n  {\n    \"label\": \"Brisbane - East\",\n    \"value\": \"Brisbane - East\"\n  },\n  {\n    \"label\": \"Brisbane - North\",\n    \"value\": \"Brisbane - North\"\n  },\n  {\n    \"label\": \"Brisbane - South\",\n    \"value\": \"Brisbane - South\"\n  },\n  {\n    \"label\": \"Brisbane - West\",\n    \"value\": \"Brisbane - West\"\n  },\n  {\n    \"label\": \"Brisbane Inner City\",\n    \"value\": \"Brisbane Inner City\"\n  },\n  {\n    \"label\": \"Cairns\",\n    \"value\": \"Cairns\"\n  },\n  {\n    \"label\": \"Darling Downs - Maranoa\",\n    \"value\": \"Darling Downs - Maranoa\"\n  },\n  {\n    \"label\": \"Central Queensland\",\n    \"value\": \"Central Queensland\"\n  },\n  {\n    \"label\": \"Gold Coast\",\n    \"value\": \"Gold Coast\"\n  },\n  {\n    \"label\": \"Ipswich\",\n    \"value\": \"Ipswich\"\n  },\n  {\n    \"label\": \"Logan - Beaudesert\",\n    \"value\": \"Logan - Beaudesert\"\n  },\n  {\n    \"label\": \"Mackay - Isaac - Whitsunday\",\n    \"value\": \"Mackay - Isaac - Whitsunday\"\n  },\n  {\n    \"label\": \"Moreton Bay - North\",\n    \"value\": \"Moreton Bay - North\"\n  },\n  {\n    \"label\": \"Moreton Bay - South\",\n    \"value\": \"Moreton Bay - South\"\n  },\n  {\n    \"label\": \"Queensland - Outback\",\n    \"value\": \"Queensland - Outback\"\n  },\n  {\n    \"label\": \"Sunshine Coast\",\n    \"value\": \"Sunshine Coast\"\n  },\n  {\n    \"label\": \"Toowoomba\",\n    \"value\": \"Toowoomba\"\n  },\n  {\n    \"label\": \"Townsville\",\n    \"value\": \"Townsville\"\n  },\n  {\n    \"label\": \"Wide Bay\",\n    \"value\": \"Wide Bay\"\n  },\n  {\n    \"label\": \"Adelaide - Central and Hills\",\n    \"value\": \"Adelaide - Central and Hills\"\n  },\n  {\n    \"label\": \"Adelaide - North\",\n    \"value\": \"Adelaide - North\"\n  },\n  {\n    \"label\": \"Adelaide - South\",\n    \"value\": \"Adelaide - South\"\n  },\n  {\n    \"label\": \"Adelaide - West\",\n    \"value\": \"Adelaide - West\"\n  },\n  {\n    \"label\": \"Barossa - Yorke - Mid North\",\n    \"value\": \"Barossa - Yorke - Mid North\"\n  },\n  {\n    \"label\": \"South Australia - Outback\",\n    \"value\": \"South Australia - Outback\"\n  },\n  {\n    \"label\": \"South Australia - South East\",\n    \"value\": \"South Australia - South East\"\n  },\n  {\n    \"label\": \"Bunbury\",\n    \"value\": \"Bunbury\"\n  },\n  {\n    \"label\": \"Mandurah\",\n    \"value\": \"Mandurah\"\n  },\n  {\n    \"label\": \"Perth - Inner\",\n    \"value\": \"Perth - Inner\"\n  },\n  {\n    \"label\": \"Perth - North East\",\n    \"value\": \"Perth - North East\"\n  },\n  {\n    \"label\": \"Perth - North West\",\n    \"value\": \"Perth - North West\"\n  },\n  {\n    \"label\": \"Perth - South East\",\n    \"value\": \"Perth - South East\"\n  },\n  {\n    \"label\": \"Perth - South West\",\n    \"value\": \"Perth - South West\"\n  },\n  {\n    \"label\": \"Western Australia - Wheat Belt\",\n    \"value\": \"Western Australia - Wheat Belt\"\n  },\n  {\n    \"label\": \"Western Australia - Outback (North)\",\n    \"value\": \"Western Australia - Outback (North)\"\n  },\n  {\n    \"label\": \"Western Australia - Outback (South)\",\n    \"value\": \"Western Australia - Outback (South)\"\n  },\n  {\n    \"label\": \"Hobart\",\n    \"value\": \"Hobart\"\n  },\n  {\n    \"label\": \"Launceston and North East\",\n    \"value\": \"Launceston and North East\"\n  },\n  {\n    \"label\": \"South East Tasmania\",\n    \"value\": \"South East Tasmania\"\n  },\n  {\n    \"label\": \"West and North West Tasmania\",\n    \"value\": \"West and North West Tasmania\"\n  },\n  {\n    \"label\": \"Darwin\",\n    \"value\": \"Darwin\"\n  },\n  {\n    \"label\": \"Northern Territory - Outback\",\n    \"value\": \"Northern Territory - Outback\"\n  },\n  {\n    \"label\": \"Australian Capital Territory\",\n    \"value\": \"Australian Capital Territory\"\n  },\n  {\n    \"label\": \"Other Territories\",\n    \"value\": \"Other Territories\"\n  }\n]",
+          "originalIdentifier": "customField5",
+          "position": 59,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField50": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "min_order_quantity",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": 0,
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField50",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "What are the minimum quantities for an order?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField50",
+          "position": 15,
+          "sourceData": 0
+        },
+        "customField51": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "max_order_quantity",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": 0,
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField51",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "What are the maximum quantities for an order?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField51",
+          "position": 16,
+          "sourceData": 0
+        },
+        "customField52": {
+          "accentColor": "#3b82f6",
+          "accessor": "applicable_postcode",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField52",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Delivery Postcode",
+          "labelTextSize": "0.875rem",
+          "options": "{{get_regions.data.filter(r => insert_form.formData.applicable_state.includes(r.state)).map(r => r.postcode)\n.filter((location, index, self) => self.indexOf(location) === index).map(postcode => ({ label: postcode, value: postcode}))}}",
+          "originalIdentifier": "customField52",
+          "position": 20,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField53": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "applicable_suburb",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField53",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Delivery Suburbs",
+          "labelTextSize": "0.875rem",
+          "options": "{{get_suburbs.suburbs()}}",
+          "originalIdentifier": "customField53",
+          "position": 21,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField54": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "number_priority_workforce",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": 0,
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField54",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Number of Priority Workforce hours contributed by contracted social benefit suppliers contributing from your supply chain",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField54",
+          "position": 53,
+          "sourceData": 0
+        },
+        "customField55": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "au_materials_other",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "customField55",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.au_materials.includes(\"other\")))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.au_materials.includes(\"other\")))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Other materials manufactured in Australia",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField55",
+          "position": 76,
+          "sourceData": ""
+        },
+        "customField56": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "au_materials_percentage",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField56",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "List the percentage % of materials manufactured in Australia for this product",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField56",
+          "position": 77,
+          "sourceData": 0
+        },
+        "customField57": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "overseas_manufacturing_other",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "customField57",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.is_overseas_manufacturing == 'other'))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.is_overseas_manufacturing == 'other'))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Other overseas manufacturing",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField57",
+          "position": 58,
+          "sourceData": ""
+        },
+        "customField58": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "manufacturing_postcode",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField58",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "If this product manufactured locally, please list the postcode",
+          "labelTextSize": "0.875rem",
+          "options": "{{get_regions.data.filter(r => insert_form.formData.manufacturing_state.includes(r.state)).map(r => r.postcode)\n.filter((location, index, self) => self.indexOf(location) === index).map(postcode => ({ label: postcode, value: postcode}))}}",
+          "originalIdentifier": "customField58",
+          "position": 61,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField59": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "environmentally_friendly",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField59",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": true,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Is your product environmentally friendly (Please tick all applicable to this product)",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  { \"label\": \"Carbon Eliminated\", \"value\": \"Carbon Eliminated\" },\n  { \"label\": \"Carbon Emissions Reduced\", \"value\": \"Carbon Emissions Reduced\" },\n  { \"label\": \"Circular Economy Manufactured Product\", \"value\": \"Circular Economy Manufactured Product\" },\n  { \"label\": \"No Packaging\", \"value\": \"No Packaging\" },\n  { \"label\": \"Recycled Materials Used\", \"value\": \"Recycled Materials Used\" },\n  { \"label\": \"Renewable Energy Used\", \"value\": \"Renewable Energy Used\" },\n  { \"label\": \"Reusable Plastic\", \"value\": \"Reusable Plastic\" },\n  { \"label\": \"Sustainable Materials\", \"value\": \"Sustainable Materials\" },\n  { \"label\": \"Sustainable Packaging\", \"value\": \"Sustainable Packaging\" },\n  { \"label\": \"Waste diverted from Landfill\", \"value\": \"Waste diverted from Landfill\" },\n  { \"label\": \"Water Reduction/Reused\", \"value\": \"Water Reduction/Reused\" },\n  { \"label\": \"Water Eliminated\", \"value\": \"Water Eliminated\" },\n  { \"label\": \"Other\", \"value\": \"other\" }\n]",
+          "originalIdentifier": "customField59",
+          "position": 84,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField6": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "manufacturing_state",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "array",
+          "defaultValue": [],
+          "fieldType": "Multiselect",
+          "identifier": "customField6",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Select the states the product is manufactured?",
+          "labelTextSize": "0.875rem",
+          "options": "[\n    { \"label\": \"Australian Capital Territory\", \"value\": \"ACT\" },\n    { \"label\": \"New South Wales\", \"value\": \"NSW\" },\n    { \"label\": \"Northern Territory\", \"value\": \"NT\" },\n    { \"label\": \"Queensland\", \"value\": \"QLD\" },\n    { \"label\": \"South Australia\", \"value\": \"SA\" },\n    { \"label\": \"Tasmania\", \"value\": \"TAS\" },\n    { \"label\": \"Victoria\", \"value\": \"VIC\" },\n    { \"label\": \"Western Australia\", \"value\": \"WA\" }\n]",
+          "originalIdentifier": "customField6",
+          "position": 60,
+          "serverSideFiltering": false,
+          "sourceData": []
+        },
+        "customField60": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "environmentally_friendly_other",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "customField60",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.environmentally_friendly.includes('other')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.environmentally_friendly.includes('other')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Other product environmentally friendly",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField60",
+          "position": 85,
+          "sourceData": ""
+        },
+        "customField61": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "recycling_type_other",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "customField61",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.recycling_type.includes(\"other\")))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.recycling_type.includes(\"other\")))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Other recycled component",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField61",
+          "position": 83,
+          "sourceData": ""
+        },
+        "customField62": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "conducting_training",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": 0,
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField62",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "How many people are undergoing training in delivery of this product?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField62",
+          "position": 22,
+          "sourceData": 0
+        },
+        "customField63": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "disability_business",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField63",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.sbs_types.includes('disability_business')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.sbs_types.includes('disability_business')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Disability Business",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField63",
+          "position": 25,
+          "sourceData": 0
+        },
+        "customField64": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "environmental",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField64",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.sbs_types.includes('environmental')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.sbs_types.includes('environmental')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Environmental",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField64",
+          "position": 26,
+          "sourceData": 0
+        },
+        "customField65": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "indigenous_business",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField65",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.sbs_types.includes('indigenous_business')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.sbs_types.includes('indigenous_business')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Indigenous Business",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField65",
+          "position": 27,
+          "sourceData": 0
+        },
+        "customField66": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "social_enterprise",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField66",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.sbs_types.includes('social_enterprise')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.sbs_types.includes('social_enterprise')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Social Enterprise",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField66",
+          "position": 28,
+          "sourceData": 0
+        },
+        "customField67": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "aboriginal_and_torres_strait_islanders",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField67",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('aboriginal_and_torres_strait_islanders')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('aboriginal_and_torres_strait_islanders')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Aboriginal and Torres Strait Islanders",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField67",
+          "position": 37,
+          "sourceData": 0
+        },
+        "customField68": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "asylum_seekers_refugees_new_migrants",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField68",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('asylum_seekers_refugees_new_migrants')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('asylum_seekers_refugees_new_migrants')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Asylum Seekers/ Refugees/ New Migrants",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField68",
+          "position": 38,
+          "sourceData": 0
+        },
+        "customField69": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "disadvantages",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField69",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('disadvantages')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('disadvantages')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Disadvantages",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField69",
+          "position": 39,
+          "sourceData": 0
+        },
+        "customField7": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "financial_target_description",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Multiline Text Input",
+          "iconAlign": "left",
+          "identifier": "customField7",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Describe your Specific Financial Goal",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField7",
+          "position": 62,
+          "sourceData": ""
+        },
+        "customField70": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "lgbtqia_plus",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField70",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('lgbtqia_plus')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('lgbtqia_plus')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "LGBTQIA+",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField70",
+          "position": 40,
+          "sourceData": 0
+        },
+        "customField71": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "long_term_unemployed",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField71",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('long_term_unemployed')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('long_term_unemployed')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Long Term Unemployed",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField71",
+          "position": 41,
+          "sourceData": 0
+        },
+        "customField72": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "mature_aged_employees",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField72",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('mature_aged_employees')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('mature_aged_employees')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Mature Aged Employees",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField72",
+          "position": 42,
+          "sourceData": 0
+        },
+        "customField73": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "people_with_disabilities",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField73",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('people_with_disabilities')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('people_with_disabilities')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "People Living with a Disability",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField73",
+          "position": 43,
+          "sourceData": 0
+        },
+        "customField74": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "school_leavers_youth_16_24",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField74",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('school_leavers_youth_16_24')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('school_leavers_youth_16_24')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "School Leavers/ Youth 16-24",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField74",
+          "position": 44,
+          "sourceData": 0
+        },
+        "customField75": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "single_parents_reentering_workforce",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField75",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('single_parents_reentering_workforce')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('single_parents_reentering_workforce')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Single Parents Re-entering the Workforce",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField75",
+          "position": 45,
+          "sourceData": 0
+        },
+        "customField76": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "women_escaping_violence",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "0",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField76",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('women_escaping_violence')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "isSpellCheck": false,
+          "isVisible": "{{((sourceData, formData, fieldState) => (insert_form.formData.kpg_types.includes('women_escaping_violence')))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "label": "Women Escaping Violence",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField76",
+          "position": 46,
+          "sourceData": 0
+        },
+        "customField8": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "financial_target",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": 0,
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "customField8",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Please set a target dollar value your business would like to sell of this product in the next 12 months. This financial target is important to help SOS track your progress and sustainability.",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField8",
+          "position": 63,
+          "sourceData": 0
+        },
+        "customField9": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "is_single_use_plastic",
+          "alignWidget": "RIGHT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": false,
+          "fieldType": "Checkbox",
+          "identifier": "customField9",
+          "isCustomField": true,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": false,
+          "label": "Contains Single Use Plastic?",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "customField9",
+          "position": 64,
+          "sourceData": true
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "col1": 5,
+        "col2": "skill B",
+        "col3": 9,
+        "col4": true
+      }
+    }
+  },
+  "scrollContents": true,
+  "shouldScrollContents": true,
+  "showReset": true,
+  "sourceData": "",
+  "submitButtonLabel": "Save",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "#3b82f6",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Product Details",
+  "topRow": 5,
+  "type": "JSON_FORM_WIDGET",
+  "useSourceData": false,
+  "version": 1,
+  "widgetId": "2tj2c0b0fl",
+  "widgetName": "insert_form"
+}

@@ -1,0 +1,54 @@
+SELECT 
+		supplier.id,
+		supplier.business_id,
+    supplier.description,
+    supplier.au_national,
+    supplier.au_state,
+    supplier.au_region,
+    supplier.nz_national,
+    supplier.international,
+    supplier.iso_accreditation,
+    supplier.work_cover,
+    supplier.public_liability,
+    supplier.professional_indemnity,
+		supplier.iso_accreditation_select,
+		supplier.iso_accreditation_expiry,
+		supplier.work_cover_expiry,
+		supplier.work_cover_doc_title,
+		supplier.work_cover_doc_url,
+		supplier.public_liability_account,
+    supplier.logo_title,
+    supplier.logo_url,
+    supplier.website_url,
+    supplier.x_url,
+    supplier.youtube_url,
+    supplier.facebook_url,
+    supplier.instagram_url,
+    supplier.linkedin_url,	 
+    supplier.video_url,
+    supplier.impact_type,
+    supplier.organisation_1_logo_url,
+    supplier.organisation_2_logo_url,
+    supplier.organisation_3_logo_url,
+		supplier.community_impact,
+		supplier.community_purpose,
+		supplier.category_1_title,
+		supplier.category_1_logo_url,
+		supplier.category_2_title,
+		supplier.category_2_logo_url,
+		supplier.category_3_title,
+		supplier.category_3_logo_url,
+		supplier.category,
+    business.name,
+		business.type,
+		business.certification_type
+FROM 
+    public.supplier 
+JOIN 
+    public.business 
+ON 
+    supplier.business_id = business.id 
+WHERE business.name ilike '%{{data_table.searchText || ""}}%'
+ORDER BY "{{data_table.sortOrder.column || 'id'}}" {{data_table.sortOrder.order || 'ASC'}}
+LIMIT {{data_table.pageSize}}
+OFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};

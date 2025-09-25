@@ -1,0 +1,1 @@
+SELECT * FROM public."application_role" LIMIT 10;

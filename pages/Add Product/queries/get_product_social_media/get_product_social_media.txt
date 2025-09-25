@@ -1,0 +1,1 @@
+SELECT * FROM public."product_social_media" WHERE product_id = '{{(insert_form.formData || {}).id}}';

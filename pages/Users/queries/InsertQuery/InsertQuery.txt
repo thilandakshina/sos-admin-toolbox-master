@@ -1,0 +1,20 @@
+INSERT INTO public."application_user" (
+	"id",
+	"last_name",
+	"first_name",
+	"email",
+	"phone",
+	"password",
+	"otp_request_count",
+	"is_verified",
+	"business_id")
+VALUES (
+	'{{uuid_min_js.UUID.generate()}}',
+	'{{insert_form.formData.last_name}}',
+	'{{insert_form.formData.first_name}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.phone}}',
+	'{{insert_form.formData.password}}',
+	1,
+	'{{insert_form.formData.is_verified}}',
+	'{{insert_form.formData.business_id}}');
